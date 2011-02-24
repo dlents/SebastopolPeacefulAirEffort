@@ -266,7 +266,7 @@ jQuery(document).ready(function() {
 		$.ajax({
 			type	: "POST",
 			cache	: false,
-			url		: "/scripts/sign_petition.php",
+			url	    : "/scripts/sign_petition.php",
 			data	: $(this).serializeArray(),
 			success: function(data) {
 				$.fancybox(data);
