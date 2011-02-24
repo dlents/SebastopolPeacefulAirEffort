@@ -121,8 +121,15 @@
                                                     </li>
                                                 </ul>
                                                 <div id="signme">
-                                                    <a href="javascript: document.forms["registration"].submit()" class="button2 blue2">Sign Petition</a>
+                                                    <a href="javascript: submitRegForm()" class="button2 blue2">Sign Petition</a>
                                                     <!-- input type="submit" -->
+                                                    <script type="text/javascript">
+                                                        function submitRegForm() {
+                                                            if (document.registration.onsubmit()) {
+                                                                document.registration.submit();
+                                                            }
+                                                        }
+                                                    </script>
                                                 </div>
                                             </form>
                                         </div>
