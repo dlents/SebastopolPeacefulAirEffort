@@ -269,7 +269,6 @@ jQuery(document).ready(function() {
 			url	    : "/scripts/sign_petition.php",
 			data	: $(this).serializeArray(),
 			success: function(data) {
-				$('#firstpart').hide();
 				$.fancybox.resize();
 				$.fancybox(data);
 			}
