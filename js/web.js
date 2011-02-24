@@ -242,6 +242,39 @@ jQuery(document).ready(function() {
 	*/
 	
 	$("table.options tr:even").addClass('even');
+	
+	/**
+	 * Added for PSC petition form (David Lents)
+	 */
+	$("#registration").bind("submit", function() {
+		
+	    if ($("#fname").val().length < 1 || $("#lname").val().length < 1) {
+	    	$("#reg_error").text('Please enter your first and last name');
+	        $("#reg_error").show();
+	        $.fancybox.resize();
+	        return false;
+	    }
+	    if ($("#zip").val().length != 5) {
+	    	$("#reg_error").text('Please enter your 5-digit zip code');
+	        $("#reg_error").show();
+	        $.fancybox.resize();
+	        return false;	    	
+	    }
+	    
+	    $.fancybox.showActivity();
+
+		$.ajax({
+			type	: "POST",
+			cache	: false,
+			url		: "/scripts/sign_petition.php",
+			data	: $(this).serializeArray(),
+			success: function(data) {
+				$.fancybox(data);
+			}
+		});
+
+		return false;
+	});
 
 });
 
