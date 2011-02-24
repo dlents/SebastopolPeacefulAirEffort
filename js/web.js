@@ -269,7 +269,7 @@ jQuery(document).ready(function() {
 			url	    : "/scripts/sign_petition.php",
 			data	: $(this).serializeArray(),
 			success: function(data) {
-				$.fancybox.resize();
+				$('#left_container').dialog("close");
 				$.fancybox(data);
 			}
 		});
