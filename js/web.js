@@ -275,6 +275,15 @@ jQuery(document).ready(function() {
 
 		return false;
 	});
+    $("#tip5").fancybox({
+		'scrolling' : 'no',
+		'titleShow'	: false,
+		'width'		: 500,
+		'height'	: 500,
+		'onClosed'	: function() {
+		    $("#reg_error").hide();
+		}
+	});	
 
 });
 
