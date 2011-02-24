@@ -1,0 +1,356 @@
+/* -----------------------------------------------------------------------
+
+
+ 	Project: Leaf Blowers
+  Web site: http://www.progressivesource.org/
+	Author: Djurica Bogosavljev
+	CSS: Main CSS File
+
+   * Copyright (c) 2007-Present. See LICENSE for more info.
+   * For credits and origins, see AUTHORS.
+
+----------------------------------------------------------------------- */
+
+@charset "utf-8";
+body { margin:0; padding:0; width:100%; background-color:#fff;}
+html { padding:0; margin:0;}
+
+a { text-decoration:none;}
+a:hover { text-decoration:underline;}
+/* main */
+.main { padding:0; margin:0 auto;}
+
+/*-----------------------------------*/
+/* 	     				Header			 		     */
+/*-----------------------------------*/
+.blok_header { margin:0 auto; padding:0; height: height: 100%; background:#fff url(images/top_bg.png) repeat top;}
+#nav {margin:0 auto; padding:0; height: 53px; background:#fff url(images/nav_bg.png) no-repeat;}
+.header { text-align: center; width:960px; margin:0 auto; padding:0;}
+
+@font-face {
+	font-family: 'MyriadProBold';  
+	src: url('fonts/myriadpro-bold_0-webfont.eot');  
+	src: local('?'), url('fonts/myriadpro-bold_0-webfont.woff') format('woff'), url('fonts/myriadpro-bold_0-webfont.ttf') format('truetype'), url('fonts/myriadpro-bold_0-webfont.svg#webfontfdwVcykt') format('svg');  
+	font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RockwellRegular';
+  src: url('fonts/rock-webfont.eot');
+  src: local('?'), url('fonts/rock-webfont.woff') format('woff'), url('fonts/rock-webfont.ttf') format('truetype'), url('fonts/rock-webfont.svg#webfontP80pJohu') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'RockwellBold';    
+	src: url('fonts/rockb-webfont.eot');   
+	src: local('?'), url('fonts/rockb-webfont.woff') format('woff'), url('fonts/rockb-webfont.ttf') format('truetype'), url('rockb-webfont.svg#webfontPc8zgrTY') format('svg');    
+	font-weight: normal;    
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SegoeUISemibold';
+	src: url('fonts/seguisb-webfont.eot');
+	src: local('?'), url('fonts/seguisb-webfont.woff') format('woff'), url('fonts/seguisb-webfont.ttf') format('truetype'), url('fonts/seguisb-webfont.svg#webfont3vQtwpAq') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1.title {font-family: 'MyriadProBold', Tahoma, Helvetica; font-size: 40px; color: #00514b; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 15px 0 5px 0; margin: 0;}
+h2.tagline {font-family: 'RockwellRegular', Tahoma, Helvetica; font-size: 22px; font-weight: normal; color: #117a72; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); padding: 0 0 20px 0; margin: 0;}
+.top_link {text-align: center; margin:0 auto; }
+.top_link p { font: normal 11px Arial, Helvetica, sans-serif; color:#1f809d; padding:0; margin:0;}
+.top_link p span { float:right;}
+.top_link a { color:#1f809d; text-decoration:none;}
+.top_link a:hover { color:#fff; text-decoration:none;}
+
+/* logo */
+.logo { padding:0; margin:0; width:337px; float:left;}
+
+/*-----------------------------------*/
+/* 	     				Menu				 		     */
+/*-----------------------------------*/
+#place {margin: 0 auto; padding:0; width: 600px;}
+.menu { padding:9px 0 0 0; margin:0 auto; width:960px; text-align: center;}
+.menu ul { padding:0; margin:0 auto; list-style:none; border:0;}
+.menu ul li { float:left; margin:0; padding:0 15px; border:0;}
+.menu ul li a { float:left; margin:0; padding:7px 0 7px 0; color:#fff; font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-decoration:none;}
+.menu ul li a span { padding:7px 15px 7px 15px; background:none;}
+
+/*-----------------------------------*/
+/* 	     Navigation Buttons 		     */
+/*-----------------------------------*/
+.button {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: baseline;
+	margin: 0 2px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'RockwellRegular', Tahoma, Helvetica;
+	font-weight: normal;
+	font-size: 16px;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.7);
+	-webkit-border-radius: 8px; 
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+	box-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+/* blue */
+.blue {
+	color: #fff;
+	border-bottom: solid 1px #fff;
+	background: #3a8d9e;
+	-webkit-box-shadow: inset 0px 3px 2px #1d474f;
+	-moz-box-shadow: inset 0px 3px 2px #1d474f;
+	box-shadow: inset 0px 3px 2px #1d474f; 
+
+}
+.blue:hover {
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
+}
+.blue:active {
+	color: #80bed6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
+	background: -moz-linear-gradient(top,  #0078a5,  #00adee);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+}
+
+/*-----------------------------------*/
+/* 	     		Signup Button 			     */
+/*-----------------------------------*/
+.button2 {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: baseline;
+	margin: 0 2px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font-family: Arial, Tahome, Helvetica;
+	font-weight: normal;
+	font-size: 18px;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.7);
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+	box-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+.button2:hover {
+	text-decoration: none;
+}
+.button2:active {
+	position: relative;
+	top: 1px;
+}
+
+/* blue2 */
+.blue2 {
+	color: #fff;
+	border: solid 1px #5e99a4;
+	background: #3a8d9e;
+  background: -webkit-gradient(linear, left top, left bottom, from(#92cfdc), to(#076071));
+	background: -moz-linear-gradient(top,  #92cfdc,  #076071);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#92cfdc', endColorstr='#076071');
+
+
+}
+.blue2:hover {
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
+}
+.blue2:active {
+	color: #80bed6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
+	background: -moz-linear-gradient(top,  #0078a5,  #00adee);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+}
+
+/*-----------------------------------*/
+/* 	     		Header Text_bg		   		 */
+/*-----------------------------------*/
+.header_text_bg { margin:0; padding:0; background: #ccc url(images/content_bg.jpg) no-repeat;}
+div .showcase {width: 650px; margin-left: 20px; padding-top: 20px;}
+div .showcase h1.related {font-family: 'RockwellBold', Tahoma, Helvetica; width: 650px; font-size: 26px; font-weight: bold; color: #0d5766; text-shadow: 0px 1px 1px #fff; text-align: left; margin:0; padding:0 0 10px 0;}
+.span-24 {width: 650px; margin-right: 0;}
+.last {margin-right:0;padding-right:0;}
+ul#rooms {float: left; position: relative; width: 650px; margin: 0px; padding: 0px; list-style: none;}
+ul#rooms li {width: 304px; height: 240px; float: left; display: block; position: relative; margin: 0px; padding: 0px 20px 25px 0px; font-family: "Trebuchet Ms", Tahoma, sans-serif; color: #2360a7; text-shadow: 0px 1px 1px #fff; text-align: center; font-size: 1.3em;  border: 0px solid #fff;}
+ul#rooms li.last {width: 300px; height: 240px;  float: right; display: block; position: relative; margin: 0px; padding: 0px 0px 15px 0px; font-family: "Trebuchet Ms", Tahoma, sans-serif; color: #2360a7; text-shadow: 0px 1px 1px #fff; text-align: center; font-size: 1.3em;  border: 0px solid #fff;}
+h4.segoe { font-family: Arial, Helvetica, sans-serif; color: #015455; text-shadow: 0px 1px 0px rgba(255,255,255,.5); text-align: center; font-size: 0.7em;  border: 0px solid #fff; position: relative; margin: 197px 0px 0px 0px; padding:0; }   
+
+div .single_video3 { float: left; width: 290px; height: 235px; padding: 0px; margin: 0px 0px 0px 0px; 
+	background: #dbf5f8;
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#dbf5f8), to(#7fc5cb));
+	background: -moz-linear-gradient(top,  #dbf5f8,  #7fc5cb);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#dbf5f8', endColorstr='#7fc5cb');  
+	border: 0px solid #fff;
+	border: 1px solid #d9f4f7;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	
+	-moz-box-shadow:
+		3px 3px 5px rgba(9, 144, 156, 0.8);
+		
+	-webkit-box-shadow:
+		3px 3px 5px rgba(9, 144, 156, 0.8);
+	
+	box-shadow:
+		3px 3px 5px rgba(9, 144, 156, 0.8);
+}
+div .single_video3 img.video { margin: 0px; padding: 0px; position: absolute; border: 0; width: 264px; height: 177px; cursor: pointer; left: 13px; top: 13px; }
+
+.youtube_small {width:264px; height:177px;}
+.youtube_small:hover{ background:url(images/btn_play5.png) no-repeat; cursor:pointer;}
+.video_thumb {position:absolute; margin: 13px 0px 0px 13px;}
+
+
+/*-----------------------------------*/
+/* 	     		Header Text			 		     */
+/*-----------------------------------*/
+.header_text { margin:0 auto; padding:0; width:960px;}
+.header_text .content p{font-family: 'RockwellRegular', Tahoma, Helvetica; color: #333; font-size: 16px; line-height: 24px; margin:0; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);}
+.header_text .content .left1 {float:left; width:640px; padding: 0px 0 20px 30px; margin:0;}
+.header_text .div { margin: 25px 0 12px 20px; background-color: #222222; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; display: -moz-inline-stack; display: inline-block; vertical-align: top; zoom: 1;*display: inline; -webkit-box-shadow: 0px 0px 20px #276b7b; -moz-box-shadow: 0px 0px 20px #276b7b; box-shadow: 0px 0px 20px #276b7b;}
+.header_text .div .left1 { float:left; width:650px; height: 470px; padding:15px 0 0 0; margin:0; }
+.header_text .div .left1 { float:left; width:650px; height: 470px; padding:15px 0 0 0; margin:0; }
+.header_text .div .left1 .video {padding: 3px 0px 0 15px; z-index: 0;}
+.header_text .div .left1 img { margin:10px 10px 10px 0; padding:0;}
+.header_text .div .left1 h2 {font:bold 36px Arial, Helvetica, sans-serif; color:#fff; padding:0 0 10px 0; margin:0; border-bottom:1px solid #7cceee; line-height:1.8em;}
+.header_text .div .left1 h2 span { font: bold 14px Arial, Helvetica, sans-serif; color:#fff; padding:10px 0; margin:0;}
+.header_text p { font:normal 14px Arial, Helvetica, sans-serif; color:#fff; padding:20px 0 0 0; margin:0; line-height:1.8em;}
+
+/*-----------------------------------*/
+/* 	     				Body						     */
+/*-----------------------------------*/
+.body_resize { margin:0; padding:0; background:#fff url(images/middle_bg.jpg) repeat; overflow: hidden;}
+.body {width:960px;  margin:0 auto; padding:0; }
+.body h2 {font: normal 18px Arial, Helvetica, sans-serif; color:#1d2024; margin:0; padding:10px 5px;}
+.body h2 span { font:normal 11px Arial, Helvetica, sans-serif; color:#ababab;}
+.body img { float:left; padding:0; margin:10px 20px 10px 5px;}
+.body img.floated { padding:0; margin:10px auto;}
+.body p { font:normal 12px Arial, Helvetica, sans-serif; color:#565656; line-height:1.8em; padding:5px 5px; margin:0;}
+.body p span { font: bold 14px Arial, Helvetica, sans-serif; color:#565656;}
+.body a { text-decoration:none; color:#393939; line-height:1.8em; font: bold 12px Arial, Helvetica, sans-serif;}
+.body_small { width:300px; float:right; margin:0; padding:15px 10px;}
+.body_big { width:620px; float:left; margin:0; padding:15px 10px;}
+.blog { width:300px; float:left; padding:15px 10px; margin:0;}
+.port { background:#f9f9f9; border:1px solid #f4f4f4; width:270px; float:left; margin:10px; padding:0 10px;}
+.text {width:650px; float:left; margin:0 auto; padding:10px;}
+.link {float: right; width:275;}
+
+/*-----------------------------------*/
+/* 	     			Sidebar				 		     */
+/*-----------------------------------*/
+.sidebar {float:right; top: 0; width:275px; height:100%; margin:20px 0px 0 0px;}
+.links {float:right; width:275px; height:100%; margin:0px 0px 0 0px;}
+#petition {margin: 20px 0px 0px 10px;}
+#skipmenu {text-align: center;}
+#skipmenu a {color: #b32021; font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);}
+#skipmenu a:hover {color:#00514b; text-decoration: underline;}
+#print {text-align: center;}
+#print p.download a {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; overflow: auto; font-size: 16px; color: #b32021; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 5px 0 0 0; margin: 0;}
+#print p.download a:hover {color:#00514b; text-decoration: underline;}
+#print p.sub_title a {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: center; overflow: auto; font-size: 16px; color: #b32021; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 5px 0 0 0; margin: 0;}
+#print p.sub_title a:hover {color:#00514b; text-decoration: underline;}
+#title {margin: 20px 0px 0px 10px;}
+#title p.petition_title {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; overflow: auto; font-size: 20px; color: #085a6b; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); padding: 0 0 10px 0; margin: 0;}
+#title p.petition_title2 {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; overflow: auto; font-size: 20px; color: #085a6b; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); padding: 21px 0 2px 0; margin: 0;}
+h3.petition_title {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: center; font-size: 20px; color: #00514b; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); padding: 0 0 10px 0; margin: 0;}
+img.divider1 {width: 270px; height: 2px; margin-bottom: 15px; margin-top:5;}
+img.divider2 {width: 270px; height: 2px; margin-bottom: 5px; margin-top:0;}
+.subcontent {margin:0 auto; padding-left: 20px; width: 250px;}
+.subcontent ul {padding:0; margin:0 auto; list-style:none; border:0;}
+.subcontent ul li {float:left; margin:0; padding:0 15px; border:0;}
+.subcontent ul li span {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; font-size: 13px; color:#4c4c4c; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);}
+.subcontent ul li.last {margin-bottom: 15px;}
+.subcontent ul li a {float:left; margin:0; padding:5px 0 0px 0; color:#b32021; font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; font-size: 14px; text-decoration:none; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);}
+.subcontent ul li a:hover {color:#3a8d9e; text-decoration: underline;}
+.subcontent p.sub_title {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; overflow: auto; font-size: 16px; color: #333; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 0; margin: 0;}
+.subcontent p.sub_title2 {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; overflow: auto; font-size: 16px; color: #333; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 0; margin: 0;}
+
+/*-----------------------------------*/
+/* 	     Registration Box 		     	 */
+/*-----------------------------------*/
+h2.reg_title { font: 2.1em 'RockwellRegular', Tahoma, Helvetica; font-size: 21px; text-shadow: 0px 1px 1px #fff; text-align: center; line-height: 24px; color: #01433e; margin: 10px 40px 0px 20px; padding: 40px 25px 10px 25px; }
+#mask { position: absolute; left: 0; top: 0; z-index: 9000; background-color: #111111; display: none; }
+#registration_box .window { position: absolute; left: 0; top: 0; width: 710px; height: 510px; display: none; z-index: 9999; }  
+#registration_box #left_container { width: 710px; height: 510px; }
+#left_container .reg_frame { background: url(images/signup_frame.png) no-repeat 0 0 transparent; width: 690px; height: 490px; }
+#left_container #firstpart { float: left; position: relative; width: 710px; height: 510px; }
+#left_container .reg_frame .field1 { position: relative; top: 20px; left: 0px;-webkit-box-shadow: 0 0px 2px rgba(0,0,0,.2); -moz-box-shadow: 0 0px 2px rgba(0,0,0,.2); box-shadow: 0 0px 2px rgba(0,0,0,.2); -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border: 1px solid #bcc7c7; height: 18px; width: 330px; margin: 0 0 15px 0; font-size: 0.8em; color: #0a284f; font-family: Arial, Helvetica, sans-serif; padding: 6px; }
+#left_container .close { float: right; position: relative; width: 30px; height: 30px; margin: 10px 24px 0px 0px; }
+#signme {float: right; width: 200px; margin: 20px 92px 0 0; position: relative;}
+ul.form { font: 1em Arial, Helvetica, sans-serif; color: #0a284f; width: 650px; padding: 0 1em 0 1em; list-style: none; zoom: 1; }
+li.form { float: left; clear: left; padding-bottom: 0.9em; }
+ul.form span.small {font: 0.7em Arial, Helvetica, sans-serif; width: 160px; color: #0a284f; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding-left: 20px;}
+.form label { float: left; display:block; font: bold 0.9em Arial, Helvetica, sans-serif; color: #b51010; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); width: 230px; margin-right: 5px; padding-top: 5px; margin-top: 23px; text-align: right; height: 100%; }
+.form label.optional {color: #0a284f;}
+
+/*-----------------------------------*/
+/* 	     			FBG_resize		 		     */
+/*-----------------------------------*/
+.FBG { width:960px; margin:0 auto; padding:0;}
+.FBG h3 {font: normal 18px Arial, Helvetica, sans-serif; color:#171717; margin:0; padding:5px;}
+.FBG h3 span { font: normal 11px Arial, Helvetica, sans-serif; color:#5c5c5c;}
+.FBG p { font:normal 12px Arial, Helvetica, sans-serif; color:#565656; padding:5px; margin:0; line-height:1.6em;}
+.FBG img { float:left; margin:5px 0; padding:0;}
+.FBG a { color:#55c5eb; text-decoration:none;}
+.left_bg  { width:220px; float:left; margin:0; padding:10px;} 
+
+/*-----------------------------------*/
+/* 	    	 			FBG							     */
+/*-----------------------------------*/
+.FBM_resize { background:#ebebeb; margin:0; padding:0; border-top:1px solid #d2d2d2;}
+.FBM { margin:0 auto; padding:20px 0; width:960px;}
+.FBM h2 { font:bold 14px Arial, Helvetica, sans-serif; color:#565656; padding:15px 5px; margin:0;}
+.FBM ul { list-style:none; margin:0; padding:0;}
+.FBM li { padding:0 5px; margin:0;}
+.FBM li a { font:normal 11px/1.6em Arial, Helvetica, sans-serif; color:#565656; text-decoration:none; text-transform:none;}
+.FBM li a:hover { text-decoration:none; color:#157591;}
+.FBM p { font:normal 11px Arial, Helvetica, sans-serif; color:#565656; line-height:1.8em; padding:5px 5px; margin:0;}
+.FBM .blogg { width:310px; float:left; margin:0; padding:10px;}
+.FBM .blogg2 { width:190px; float:left; margin:0; padding:10px;}
+
+/*-----------------------------------*/
+/* 	     				Footer			 		     */
+/*-----------------------------------*/
+.footer_resize { width:960px; margin:0 auto; padding:0; }
+.footer p { font-size: 13px; text-align: center; padding-top: 35px;}
+.footer a { font:normal 11px Arial, Helvetica, sans-serif; color:#28a2c5; text-decoration:none; padding:5px; margin:0;}
+.footer p.leftt { font-family: Arial, Tahome, Helvetica; text-align:center; margin:0; padding:35px 0 0 5px; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);} 
+.footer p.rightt { text-align:right; width:30%; margin:0; padding:15px 5px 0 0; float:right;} 
+.footer {padding:4px 0; margin: 0 auto; height: 78px; color: #222; background: #fff url(images/footer_bg.jpg) repeat-x top;}
+
+p.clr, .clr { clear:both; padding:0; margin:0;}
+li.bg, .bg { clear:both; border-bottom:1px solid #e2e2e2; padding:10px 0 0 0; margin:0 0 10px 0; background:none; list-style:none;}
+li.line, .line { border-top:1px solid #d9d9d9; padding:0; margin:10px 0; background:none; list-style:none;}
