@@ -307,7 +307,7 @@ h2.reg_title { font: 2.1em 'RockwellRegular', Tahoma, Helvetica; font-size: 21px
 #registration_box #left_container { width: 710px; height: 510px; }
 #left_container .reg_frame { background: url(images/signup_frame.png) no-repeat 0 0 transparent; width: 690px; height: 490px; }
 #left_container #firstpart { float: left; position: relative; width: 710px; height: 510px; }
-#left_container .reg_frame .field1 { position: relative; top: 20px; left: 0px;-webkit-box-shadow: 0 0px 2px rgba(0,0,0,.2); -moz-box-shadow: 0 0px 2px rgba(0,0,0,.2); box-shadow: 0 0px 2px rgba(0,0,0,.2); -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border: 1px solid #bcc7c7; height: 18px; width: 330px; margin: 0 0 15px 0; font-size: 0.8em; color: #0a284f; font-family: Arial, Helvetica, sans-serif; padding: 6px;
+#left_container .reg_frame .field1 { position: relative; top: 20px; left: 0px;-webkit-box-shadow: 0 0px 2px rgba(0,0,0,.2); -moz-box-shadow: 0 0px 2px rgba(0,0,0,.2); box-shadow: 0 0px 2px rgba(0,0,0,.2); -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border: 1px solid #bcc7c7; height: 18px; width: 330px; margin: 0 0 15px 0; font-size: 0.8em; color: #0a284f; font-family: Arial, Helvetica, sans-serif; padding: 6px; }
 #left_container .close { float: right; position: relative; width: 30px; height: 30px; margin: 10px 24px 0px 0px; }
 #signme {float: right; width: 200px; margin: 20px 92px 0 0; position: relative;}
 ul.form { font: 1em Arial, Helvetica, sans-serif; color: #0a284f; width: 650px; padding: 0 1em 0 1em; list-style: none; zoom: 1; }
@@ -315,7 +315,6 @@ li.form { float: left; clear: left; padding-bottom: 0.9em; }
 ul.form span.small {font: 0.7em Arial, Helvetica, sans-serif; width: 160px; color: #0a284f; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding-left: 20px;}
 .form label { float: left; display:block; font: bold 0.9em Arial, Helvetica, sans-serif; color: #b51010; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); width: 230px; margin-right: 5px; padding-top: 5px; margin-top: 23px; text-align: right; height: 100%; }
 .form label.optional {color: #0a284f;}
-#reg_error {float: left; display:block; font: bold 0.9em Arial, Helvetica, sans-serif; color: #ff0000; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); width: 230px; margin-right: 5px; padding-top: 5px; margin-top: 23px; text-align: right; height: 100%; }
 
 /*-----------------------------------*/
 /* 	     			FBG_resize		 		     */
