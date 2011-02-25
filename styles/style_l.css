@@ -1,8 +1,15 @@
 @charset "utf-8";
 
-.sidebar #fb-like img {
+.sidebar #fb-share img {
     display: block;
     margin: 16px 72px 0 auto;
+    border: none;
+    float: none;
+}
+
+.sidebar #fb-like {
+    display: block;
+    margin-left: 110px;
     border: none;
     float: none;
 }
