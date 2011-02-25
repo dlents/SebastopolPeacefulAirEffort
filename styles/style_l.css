@@ -1,7 +1,9 @@
 @CHARSET "UTF-8";
 
-.sidebar #fb-like {
+.sidebar #fb-like img {
+    display: block;
     margin-left: 80px;
+    border: none;
 }
 
 #sign_result {
