@@ -4,6 +4,7 @@
     display: block;
     margin-left: 80px;
     border: none;
+    float: none;
 }
 
 #sign_result {
