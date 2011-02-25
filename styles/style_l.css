@@ -1,31 +1,30 @@
 @charset "utf-8";
 
 .sidebar #fb-share img {
-    display: block;
-    margin: 16px 72px 0 auto;
-    border: none;
-    float: none;
+	display: block;
+	margin: 16px 72px 0 auto;
+	border: none;
+	float: none;
 }
 
 .sidebar #fb-like {
-    display: block;
-    margin-left: 90px;
-    border: none;
-    float: none;
+	display: block;
+	margin-left: 90px;
+	border: none;
+	float: none;
 }
 
 #sign_result {
-    font: 1.1em Arial, Helvetica, sans-serif;
-    color: #0a284f;
-    padding: 0 1em 0 1em;
+	font: 1.1em Arial, Helvetica, sans-serif;
+	color: #0a284f;
+	padding: 0 1em 0 1em;
 }
 
 #sig_count {
-    font: 1.6em Arial, Helvetica, sans-serif;
-    color: #008000;
-    padding: 0 1em 0 1em;
+	font: 1.6em Arial, Helvetica, sans-serif;
+	color: #008000;
+	padding: 0 1em 0 1em;
 }
-
 /** unused
 #reg_error {
     float: left;
