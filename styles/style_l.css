@@ -2,7 +2,7 @@
 
 .sidebar #fb-like img {
     display: block;
-    margin-left: 80px;
+    margin: 24px 72px 24px auto;
     border: none;
     float: none;
 }
