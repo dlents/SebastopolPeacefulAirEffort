@@ -4,5 +4,27 @@
     margin-left: 110px;
 }
 
-#sign_result { font: 1.1em Arial, Helvetica, sans-serif; color: #0a284f; padding: 0 1em 0 1em; }
-#sig_count { font: 1.6em Arial, Helvetica, sans-serif; color: #008000; padding: 0 1em 0 1em; }
+#sign_result {
+    font: 1.1em Arial, Helvetica, sans-serif;
+    color: #0a284f;
+    padding: 0 1em 0 1em;
+}
+
+#sig_count {
+    font: 1.6em Arial, Helvetica, sans-serif;
+    color: #008000;
+    padding: 0 1em 0 1em;
+}
+
+#reg_error {
+    float: left;
+    display: block;
+    font: bold 0.8em Arial, Helvetica, sans-serif;
+    color: #c60c0c;
+    width: 230px;
+    margin-right: 5px;
+    padding-top: 5px;
+    margin-top: 23px;
+    text-align: right;
+    height: 100%;
+}
