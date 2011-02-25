@@ -6,14 +6,16 @@ jQuery(document).ready(function() {
 	$("#registration").bind("submit", function() {
 		
 	    if ($("#fname").val().length < 1 || $("#lname").val().length < 1) {
-	    	$("#reg_error").text('Please enter your first and last name');
-	        $("#reg_error").show();
+	    	alert('First and last name are both required');
+	    	// $("#reg_error").text('Please enter your first and last name');
+	        // $("#reg_error").show();
 	        $.fancybox.resize();
 	        return false;
 	    }
 	    if ($("#zip").val().length != 5) {
-	    	$("#reg_error").text('Please enter your 5-digit zip code');
-	        $("#reg_error").show();
+	    	alert('Please enter your 5-digit zip code');
+	    	// $("#reg_error").text('Please enter your 5-digit zip code');
+	        // $("#reg_error").show();
 	        $.fancybox.resize();
 	        return false;	    	
 	    }
