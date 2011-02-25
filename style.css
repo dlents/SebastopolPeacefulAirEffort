@@ -28,7 +28,7 @@ a:hover { text-decoration:underline;}
 .header { text-align: center; width:960px; margin:0 auto; padding:0;}
 
 @font-face {
-	font-family: MyriadProBold;  
+	font-family: 'MyriadProBold';  
 	src: url('fonts/myriadpro-bold_0-webfont.eot');  
 	src: local('?'), url('fonts/myriadpro-bold_0-webfont.woff') format('woff'), url('fonts/myriadpro-bold_0-webfont.ttf') format('truetype'), url('fonts/myriadpro-bold_0-webfont.svg#webfontfdwVcykt') format('svg');  
 	font-weight: normal;
