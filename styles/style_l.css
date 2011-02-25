@@ -19,6 +19,7 @@
     padding: 0 1em 0 1em;
 }
 
+/** unused
 #reg_error {
     float: left;
     display: block;
@@ -31,3 +32,4 @@
     text-align: right;
     height: 100%;
 }
+**/
