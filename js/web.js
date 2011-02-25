@@ -271,6 +271,12 @@ jQuery(document).ready(function() {
 			success: function(data) {
 				$('#mask').hide();
 				$('.window').hide();
+				$('#sign_result').css({
+					'font-family' : 'Arial, Helvetica, sans-serif',
+					'font-weight' : 'bold',
+					'color'       : '#0a284f',
+					'padding'     : '0 1em 0 1em'
+				});
 				$.fancybox(data);
 			}
 		});
