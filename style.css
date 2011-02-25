@@ -23,12 +23,12 @@ a:hover { text-decoration:underline;}
 /*-----------------------------------*/
 /* 	     				Header			 		     */
 /*-----------------------------------*/
-.blok_header { margin:0 auto; padding:0; height: height: 100%; background:#fff url(images/top_bg.png) repeat top;}
+.blok_header { margin:0 auto; padding:0; height: 100%; background:#fff url(images/top_bg.png) repeat top;}
 #nav {margin:0 auto; padding:0; height: 53px; background:#fff url(images/nav_bg.png) no-repeat;}
 .header { text-align: center; width:960px; margin:0 auto; padding:0;}
 
 @font-face {
-	font-family: 'MyriadProBold';  
+	font-family: MyriadProBold;  
 	src: url('fonts/myriadpro-bold_0-webfont.eot');  
 	src: local('?'), url('fonts/myriadpro-bold_0-webfont.woff') format('woff'), url('fonts/myriadpro-bold_0-webfont.ttf') format('truetype'), url('fonts/myriadpro-bold_0-webfont.svg#webfontfdwVcykt') format('svg');  
 	font-weight: normal;
