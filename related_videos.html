@@ -1,254 +1,349 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<title>Related Videos | Leaf Blowers - Sebastopol Peaceful Air Effort</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<link href="style.css" rel="stylesheet" type="text/css" />
-		<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-		<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-		<script type="text/javascript" src="js/scripts.js"></script>
-		<script type="text/javascript" src="/js/web.js"></script>
-		<!--[if lt IE 7]>
-  		<script type="text/javascript" src="unitpngfix.js"></script>
-		<![endif]-->
-		<script language="javascript">
-			$(document).ready(function() {
-				$(".youtube_small").click(function() {
-					$.fancybox({
-							'padding'		: 0,
-							'autoScale'		: false,
-							'transitionIn'	: 'none',
-							'transitionOut'	: 'none',
-							'width'		: 680,
-							'height'		: 495,
-							'href'			: getHref(this),
-							'type'			: 'swf',
-							'swf'			: {
-							  'wmode':'transparent',
-								'allowfullscreen':'true',
-							}
-						});
-
-					return false;
-				});
-
-				$(".youtube").click(function() {
-					$.fancybox({
-							'padding'		: 0,
-							'autoScale'		: false,
-							'transitionIn'	: 'none',
-							'transitionOut'	: 'none',
-							'width'		: 680,
-							'height'		: 495,
-							'href'			: getHref(this),
-							'type'			: 'swf',
-							'swf'			: {
-							  'wmode':'transparent',
-								'allowfullscreen':'true',
-							}
-						});
-
-					return false;
-				});
-
-				function getHref(holder){
-					var lnk = $(holder).find('a').attr('href');
-					return lnk.replace(new RegExp("watch\\?v=", "i"), 'v/')
-				}
-			});
-		</script> 
-  	<!-- Import fancy-type plugin. -->
-  	<link rel="stylesheet" href="blueprint/plugins/fancy-type/screen.css" type="text/css" media="screen, projection" />
-	</head>
-<body>
-<div class="main">
-  <div class="blok_header">
-    <div class="header">
-        <h1 class="title">Sebastopol Peaceful Air Effort</h1>
-        <h2 class="tagline">Working to restore peace by restricting unnecessary leaf-blower usage</h2>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml" xml:lang="en" lang="en">
+    <head>
+        <title>Home | Leaf Blowers - Sebastopol Peaceful Air Effort</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="styles/styles_l.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+        <script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+        <script type="text/javascript" src="fancybox/jquery.easing-1.3.pack.js"></script>
+        <script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+        <script type="text/javascript" src="js/web.js"></script>
+        <!--[if lt IE 7]>
+            <script type="text/javascript" src="js/unitpngfix.js"></script>
+        <![endif]-->
+        <!-- Facebook Opengraph Meta tags start -->
+        <meta property="og:title" content="Leaf Blowers - Sebastopol Peaceful Air Effort"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:url" content="http://progressivesource.org/SebastopolPeacefulAirEffort/"/>
+        <meta property="og:image" content="http://progressivesource.org/SebastopolPeacefulAirEffort/images/leaf_globe_thumb.jpg"/>
+        <meta property="og:site_name" content="ProgressiveSource.org"/>
+        <meta property="og:description" content="Working to restore peace by restricting unnecessary leaf-blower usage"/>
+        <meta property="og:locality" content="Sebastopol"/>
+        <meta property="og:region" content="CA"/>
+        <meta property="og:postal-code" content="95472"/>
+        <meta property="og:country-name" content="USA"/>
+        <meta property="fb:admins" content="1493919124"/>
+        <!-- Facebook Opengraph Meta tags end -->
+        
+        <script language="javascript">
+            $(document).ready(function(){
+                $(".youtube_small").click(function(){
+                    $.fancybox({
+                        'padding': 0,
+                        'autoScale': false,
+                        'transitionIn': 'none',
+                        'transitionOut': 'none',
+                        'width': 680,
+                        'height': 495,
+                        'href': getHref(this),
+                        'type': 'swf',
+                        'swf': {
+                            'wmode': 'transparent',
+                            'allowfullscreen': 'true',
+                        }
+                    });
+                    
+                    return false;
+                });
+                
+                $(".youtube").click(function(){
+                    $.fancybox({
+                        'padding': 0,
+                        'autoScale': false,
+                        'transitionIn': 'none',
+                        'transitionOut': 'none',
+                        'width': 680,
+                        'height': 495,
+                        'href': getHref(this),
+                        'type': 'swf',
+                        'swf': {
+                            'wmode': 'transparent',
+                            'allowfullscreen': 'true',
+                        }
+                    });
+                    
+                    return false;
+                });
+                
+                function getHref(holder){
+                    var lnk = $(holder).find('a').attr('href');
+                    return lnk.replace(new RegExp("watch\\?v=", "i"), 'v/')
+                }
+            });
+        </script>
+        <!-- Import fancy-type plugin. -->
+        <link rel="stylesheet" href="blueprint/plugins/fancy-type/screen.css" type="text/css" media="screen, projection" />
+    </head>
+    <body>
+    <div class="main">
+        <div class="blok_header">
+            <div class="header">
+                <h1 class="title">
+                    Sebastopol Peaceful Air Effort
+                </h1>
+                <h2 class="tagline">
+                    Working to restore peace by restricting unnecessary leaf-blower usage
+                </h2>
+            </div>
+            <div id="nav">
+                <div id="place">
+                    <div class="menu">
+                        <ul>
+                            <li>
+                                <a href="index.html" class="button blue"><span>Home</span></a>
+                            </li>
+                            <li>
+                                <a href="health_hazards.html" class="button blue"><span>Health Hazards of Leaf Blowers</span></a>
+                            </li>
+                            <li>
+                                <a href="related_videos.html" class="button blue"><span>Related Videos</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_text_bg">
+            <div class="header_text">
+                <div class="sidebar">
+                    <div id="petition">
+                        <h3 class="petition_title">
+                            Sign our petition asking the City Council to protect our community from toxic, disruptive, and ecologically destructive leaf blowers.
+                        </h3>
+                        <img class="divider1" src="images/line.jpg" />
+                        <div id="print">
+                            <p class="download">
+                                <a href="Petition.doc">Download the petition to print</a>
+                            </p>
+                        </div>
+                        <div id="skipmenu">
+                            <a href="#left_container" name="modal" class="button3 red">Sign Petition</a>
+                        </div>
+                        <!-- Start of Registration Dialog -->
+                        <div id="registration_box">
+                            <div id="left_container" class="window">
+                                <div class="reg_frame">
+                                    <div id="firstpart">
+                                        <input type="image" alt="Close" name="close" title="Close" src="images/close.png" class="close" />
+                                        <h2 class="reg_title">
+                                            I support the work of the Sebastopol Peaceful Air Effort and the Sebastopol City Council to create and implement a city ordinance to effectively restrict the use of leaf blowers in order to prevent hazardous air and noise pollution.
+                                        </h2>
+                                        <form method="get" action="#" id="registration" name="registration">
+                                            <ul class="form">
+                                                <li>
+                                                    <label for="firstname">
+                                                        First Name:
+                                                    </label>
+                                                    <input id="firstname" name="firstname" class="field1" type="text" />
+                                                </li>
+                                                <li>
+                                                    <label for="lastname">
+                                                        Last Name:
+                                                    </label>
+                                                    <input id="lastname" name="lastname" class="field1" type="text" />
+                                                </li>
+                                                <li>
+                                                    <label for="zipcode">
+                                                        Zip Code:
+                                                    </label>
+                                                    <input id="zipcode" name="zipcode" class="field1" type="text" />
+                                                </li>
+                                                <li>
+                                                    <label for="email" class="optional">
+                                                        Email Address* (optional):
+                                                        <br/>
+                                                        <span class="small">* If you would like to be updated by us no more than four times a year. We will <i><b>NEVER</b></i> trade or sell your email info.</span>
+                                                    </label>
+                                                    <input id="email" name="email" class="field1" type="text" />
+                                                </li>
+                                            </ul>
+                                            <div id="signme">
+                                                <a onclick="document.['registration'].submit();return false" href="#" class="button2 blue2">Sign this Petition</a>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Registration Dialog --><!-- Mask to cover the whole screen -->
+                        <div id="mask">
+                        </div>
+                    </div>
+                    <div class="links">
+                        <div id="title">
+                            <p class="petition_title2">
+                                Link &amp; Resources
+                            </p>
+                            <img class="divider2" src="images/line.jpg" />
+                            <div class="subcontent">
+                                <p class="sub_title">
+                                    Organizations
+                                </p>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.quietorinda.com/">Quiet Orinda</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://zapla.org/">Zero Air Pollution, Los Angeles</a>
+                                    </li>
+                                </ul>
+                                <br/>
+                                <br/>
+                                <p class="sub_title2">
+                                    Reports
+                                </p>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.arb.ca.gov/msprog/leafblow/leafblow.htm">Leaf Blower Report</a>,
+                                        <br/>
+                                        <span> CA EPA Air Resources Board</span>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.baaqmd.gov/Divisions/Planning-and-Research/Particulate-Matter.aspx">Particulate Matter</a>,
+                                        <br/>
+                                        <span> Bay Area Air Quality Management District</span>
+                                    </li>
+                                    <li>
+                                        <a href="http://bit.ly/gOaWt0">Noise: A Health Problem</a>,<span> US EPA</span>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.who.int/docstore/peh/noise/Comnoise3.htm">Noise Guidelines</a>,
+                                        <br/>
+                                        <span> World Health Organization</span>
+                                    </li>
+                                    <li class="last">
+                                        <a href="http://www.ocgrandjury.org/pdfs/leafblow.pdf">Leaf Blower Pollution Hazards</a>,
+                                        <br/>
+                                        <span> Orange County Grand Jury</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="related_videos" class="span-24 last">
+                    <div class="showcase">
+                        <h1 class="related">
+                            Related Videos
+                        </h1>
+                        <ul id="rooms">
+                            <li>
+                                <div class="single_video3">
+                                    <div class="video_thumb" style="background:url(images/blower.jpg);">
+                                        <div class="youtube_small">
+                                            <a href="http://www.youtube.com/watch?v=trjJjabO-EI"></a>
+                                        </div>
+                                    </div>
+                                    <h4 class="segoe">
+                                        Leaf Blower Pollution in Sebastopol
+                                    </h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single_video3">
+                                    <div class="video_thumb" style="background:url(images/blower.jpg);">
+                                        <div class="youtube_small">
+                                            <a href="http://www.youtube.com/watch?v=YsCJ-GJod2Q"></a>
+                                        </div>
+                                    </div>
+                                    <h4 class="segoe">
+                                        Kyle Rudderow Wants Peace in Our Parks
+                                    </h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single_video3">
+                                    <div class="video_thumb" style="background:url(images/blower.jpg);">
+                                        <div class="youtube_small">
+                                            <a href="http://www.youtube.com/watch?v=bM0m79SGfJA"></a>
+                                        </div>
+                                    </div>
+                                    <h4 class="segoe">
+                                        Sebastopol Resident Shepherd Bliss Speaks Out
+                                    </h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single_video3">
+                                    <div class="video_thumb" style="background:url(images/blower.jpg);">
+                                        <div class="youtube_small">
+                                            <a href="http://www.youtube.com/watch?v=VhWf_VymEhI"></a>
+                                        </div>
+                                    </div>
+                                    <h4 class="segoe">
+                                        Jonathan Greenberg Supporting Sebastopol Ban
+                                    </h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single_video3">
+                                    <div class="video_thumb" style="background:url(images/blower.jpg);">
+                                        <div class="youtube_small">
+                                            <a href="http://www.youtube.com/watch?v=bUgn20yppQ4"></a>
+                                        </div>
+                                    </div>
+                                    <h4 class="segoe">
+                                        Diana Badger Speaks for Sebastopol Ban
+                                    </h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single_video3">
+                                    <div class="video_thumb" style="background:url(images/blower.jpg);">
+                                        <div class="youtube_small">
+                                            <a href="http://www.youtube.com/watch?v=_gmfJkXxI_U"></a>
+                                        </div>
+                                    </div>
+                                    <h4 class="segoe">
+                                        Orinda, CA Fights for Quiet and Health
+                                    </h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single_video3">
+                                    <div class="video_thumb" style="background:url(images/blower.jpg);">
+                                        <div class="youtube_small">
+                                            <a href="http://www.youtube.com/watch?v=naUEoKB0GWQ"></a>
+                                        </div>
+                                    </div>
+                                    <h4 class="segoe">
+                                        Leaf Blower Madness in SoCal
+                                    </h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single_video3">
+                                    <div class="video_thumb" style="background:url(images/blower.jpg);">
+                                        <div class="youtube_small">
+                                            <a href="http://www.youtube.com/watch?v=2oQnxP14maQ"></a>
+                                        </div>
+                                    </div>
+                                    <h4 class="segoe">
+                                        Four Leaf Blowers in Action
+                                    </h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clr">
+                </div>
+            </div>
+        </div>
     </div>
-    <div id="nav">
-    	<div id="place">
-  		<div class="menu">
-    		<ul>
-      		<li><a href="index.html" class="button blue"><span>Home</span></a></li>
-        	<li><a href="health_hazards.html" class="button blue"><span>Health Hazards of Leaf Blowers</span></a></li>
-        	<li><a href="related_videos.html" class="button blue"><span>Related Videos</span></a></li>
-      	</ul>
-   	 	</div>
-   	  </div>
-  	</div>
-  </div>
-  <div class="header_text_bg">
-    <div class="header_text">
-    	<div class="sidebar">
-        <div id="petition">
-          <h3 class="petition_title">Sign our petition asking the City Council to protect our community from toxic, disruptive, and ecologically destructive leaf blowers.</h3>
-          <img class="divider1" src="images/line.jpg" />
-					<div id="print">
-						<p class="download"><a href="Petition.doc">Download the petition to print</a></p>
-					</div>
-					<div id="skipmenu">
-     				<a href="#left_container" name="modal" class="button3 red">Sign Petition</a>
-    			</div>
-    			<!-- Start of Registration Dialog -->
-  				<div id="registration_box">
-   					<div id="left_container" class="window">	  
-   						<div class="reg_frame">
-   	 						<div id="firstpart">
-   	 							<input type="image" alt="Close" name="close" title="Close" src="images/close.png" class="close"  />
-   	  						<h2 class="reg_title">I support the work of the Sebastopol Peaceful Air Effort and the Sebastopol City Council to create and implement a city ordinance to effectively restrict the use of leaf blowers in order to prevent hazardous air and noise pollution.</h2>
-   	 	 						<form method="get" action="#" id="registration" name="registration">
-	   								<ul class="form">
-											<li>
-		 										<label for="firstname">First Name:</label>
-		 										<input id="firstname" name="firstname" class="field1" type="text" />
-											</li>
-											<li>
-		 										<label for="lastname">Last Name:</label>
-		 										<input id="lastname" name="lastname" class="field1" type="text" />
-											</li>
-											<li>
-		 										<label for="zipcode">Zip Code:</label>
-		 										<input id="zipcode" name="zipcode" class="field1" type="text" />
-											</li>
-											<li>
-		 										<label for="email" class="optional">Email Address* (optional):<br /><span class="small">* If you would like to be updated by us no more than four times a year. We will <i><b>NEVER</b></i> trade or sell your email info.</span></label>
-		 										<input id="email" name="email" class="field1" type="text" />
-											</li>
-	   								</ul>
-	   								<div id="signme">
-	   									<a onclick="document.['registration'].submit();return false" href="#" class="button2 blue2">Sign this Petition</a> 
-	   								</div>
-      						</form>
-     						</div>
-    					</div>
-   					</div>     
-  				</div>
-  				<!-- End of Registration Dialog -->
-  				<!-- Mask to cover the whole screen -->
-   				<div id="mask"></div>
-      	</div>
-      	<div class="links">
-  				<div id="title">
-        		<p class="petition_title2">Link &amp; Resources</p>
-          	<img class="divider2" src="images/line.jpg" />
-          	<div class="subcontent">
-          		<p class="sub_title">Organizations</p>
-          			<ul>
-          				<li><a href="http://www.quietorinda.com/">Quiet Orinda</a></li>
-          				<li><a href="http://zapla.org/">Zero Air Pollution, Los Angeles</a></li>
-          			</ul><br /><br />
-          		<p class="sub_title2">Reports</p>
-          			<ul>
-          				<li><a href="http://www.arb.ca.gov/msprog/leafblow/leafblow.htm">Leaf Blower Report</a>,<br /><span> CA EPA Air Resources Board</span></li>
-          				<li><a href="http://www.baaqmd.gov/Divisions/Planning-and-Research/Particulate-Matter.aspx">Particulate Matter</a>,<br /><span> Bay Area Air Quality Management District</span></li>
-          				<li><a href="http://bit.ly/gOaWt0">Noise: A Health Problem</a>,<span> US EPA</span></li>
-          				<li><a href="http://www.who.int/docstore/peh/noise/Comnoise3.htm">Noise Guidelines</a>,<br /><span> World Health Organization</span></li>
-          				<li class="last"><a href="http://www.ocgrandjury.org/pdfs/leafblow.pdf">Leaf Blower Pollution Hazards</a>,<br /><span> Orange County Grand Jury</span></li>
-          			</ul>
-          	</div>
-      		</div>
-      	</div>	
-      </div>
-      <div id="related_videos" class="span-24 last">
-    		<div class="showcase">
-    			<h1 class="related">Related Videos</h1>
-    			<ul id="rooms">
-    				<li>
-      				<div class="single_video3">
-        				<div class="video_thumb" style="background:url(images/blower.jpg);">
-          				<div class="youtube_small">
-										<a href="http://www.youtube.com/watch?v=trjJjabO-EI"></a>
-									</div>
-        				</div>
-        				<h4 class="segoe">Leaf Blower Pollution in Sebastopol</h4>
-    					</div>
-    				</li>
-    				<li>
-      				<div class="single_video3">
-        				<div class="video_thumb" style="background:url(images/blower.jpg);">
-          				<div class="youtube_small">
-										<a href="http://www.youtube.com/watch?v=YsCJ-GJod2Q"></a>
-									</div>
-        				</div>
-        				<h4 class="segoe">Kyle Rudderow Wants Peace in Our Parks</h4>
-    					</div>
-    				</li>
-    				<li>
-      				<div class="single_video3">
-        				<div class="video_thumb" style="background:url(images/blower.jpg);">
-          				<div class="youtube_small">
-										<a href="http://www.youtube.com/watch?v=bM0m79SGfJA"></a>
-									</div>
-        				</div>
-        				<h4 class="segoe">Sebastopol Resident Shepherd Bliss Speaks Out</h4>
-    					</div>
-    				</li>
-    				<li>
-      				<div class="single_video3">
-        				<div class="video_thumb" style="background:url(images/blower.jpg);">
-          				<div class="youtube_small">
-										<a href="http://www.youtube.com/watch?v=VhWf_VymEhI"></a>
-									</div>
-        				</div>
-        				<h4 class="segoe">Jonathan Greenberg Supporting Sebastopol Ban</h4>
-    					</div>
-    				</li>
-    				<li>
-      				<div class="single_video3">
-        				<div class="video_thumb" style="background:url(images/blower.jpg);">
-          				<div class="youtube_small">
-										<a href="http://www.youtube.com/watch?v=bUgn20yppQ4"></a>
-									</div>
-        				</div>
-        				<h4 class="segoe">Diana Badger Speaks for Sebastopol Ban</h4>
-    					</div>
-    				</li>
-    				<li>
-      				<div class="single_video3">
-        				<div class="video_thumb" style="background:url(images/blower.jpg);">
-          				<div class="youtube_small">
-										<a href="http://www.youtube.com/watch?v=_gmfJkXxI_U"></a>
-									</div>
-        				</div>
-        				<h4 class="segoe">Orinda, CA Fights for Quiet and Health</h4>
-    					</div>
-    				</li>
-    				<li>
-    					<div class="single_video3">
-        				<div class="video_thumb" style="background:url(images/blower.jpg);">
-          				<div class="youtube_small">
-										<a href="http://www.youtube.com/watch?v=naUEoKB0GWQ"></a>
-									</div>
-        				</div>
-        				<h4 class="segoe">Leaf Blower Madness in SoCal</h4>
-    					</div>
-    				</li>
-    				<li>
-    					<div class="single_video3">
-        				<div class="video_thumb" style="background:url(images/blower.jpg);">
-          				<div class="youtube_small">
-										<a href="http://www.youtube.com/watch?v=2oQnxP14maQ"></a>
-									</div>
-        				</div>
-        				<h4 class="segoe">Four Leaf Blowers in Action</h4>
-    					</div>
-    				</li>
-    			</ul>
-    		</div>
-   		</div>     
-      <div class="clr"></div>
     </div>
-  </div>		
-</div>
-</div>
-<div class="footer">
-  <div class="footer_resize">
-    <p class="leftt">Copyright &copy; 2011 Progressive Source Communications. All Rights Reserved.<br />
-    <div class="clr"></div>
-  </div>
-</div>
+    <div class="footer">
+        <div class="footer_resize">
+            <p class="leftt">
+            Copyright &copy; 2011 Progressive Source Communications. All Rights Reserved.
+            <br/>
+            <div class="clr">
+            </div>
+        </div>
+    </div>
 </body>
 </html>
