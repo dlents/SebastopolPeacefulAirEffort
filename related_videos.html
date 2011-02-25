@@ -77,8 +77,6 @@
                 }
             });
         </script>
-        <!-- Import fancy-type plugin. -->
-        <link rel="stylesheet" href="blueprint/plugins/fancy-type/screen.css" type="text/css" media="screen, projection" />
     </head>
     <body>
     <div class="main">
@@ -119,7 +117,7 @@
                         <img class="divider1" src="images/line.jpg" />
                         <div id="print">
                             <p class="download">
-                                <a href="Petition.doc">Download the petition to print</a>
+                                <a href="Leaf-Blowers-Petition.pdf">Download the petition to print</a>
                             </p>
                         </div>
                         <div id="skipmenu">
@@ -134,40 +132,48 @@
                                         <h2 class="reg_title">
                                             I support the work of the Sebastopol Peaceful Air Effort and the Sebastopol City Council to create and implement a city ordinance to effectively restrict the use of leaf blowers in order to prevent hazardous air and noise pollution.
                                         </h2>
-                                        <form method="get" action="#" id="registration" name="registration">
-                                            <ul class="form">
-                                                <li>
-                                                    <label for="firstname">
-                                                        First Name:
-                                                    </label>
-                                                    <input id="firstname" name="firstname" class="field1" type="text" />
-                                                </li>
-                                                <li>
-                                                    <label for="lastname">
-                                                        Last Name:
-                                                    </label>
-                                                    <input id="lastname" name="lastname" class="field1" type="text" />
-                                                </li>
-                                                <li>
-                                                    <label for="zipcode">
-                                                        Zip Code:
-                                                    </label>
-                                                    <input id="zipcode" name="zipcode" class="field1" type="text" />
-                                                </li>
-                                                <li>
-                                                    <label for="email" class="optional">
-                                                        Email Address* (optional):
-                                                        <br/>
-                                                        <span class="small">* If you would like to be updated by us no more than four times a year. We will <i><b>NEVER</b></i> trade or sell your email info.</span>
-                                                    </label>
-                                                    <input id="email" name="email" class="field1" type="text" />
-                                                </li>
-                                            </ul>
-                                            <div id="signme">
-                                                <a onclick="document.['registration'].submit();return false" href="#" class="button2 blue2">Sign this Petition</a>
-                                            </div>
-                                        </form>
-                                    </div>
+                                            <form method="post" action="#" id="registration" name="registration">
+                                                <input type="hidden" name="p_id" value="1"/>
+                                                <ul class="form">
+                                                    <li>
+                                                        <label for="fname">
+                                                            First Name:
+                                                        </label>
+                                                        <input id="fname" name="fname" class="field1" type="text" />
+                                                    </li>
+                                                    <li>
+                                                        <label for="lname">
+                                                            Last Name:
+                                                        </label>
+                                                        <input id="lname" name="lname" class="field1" type="text" />
+                                                    </li>
+                                                    <li>
+                                                        <label for="zipcode">
+                                                            Zip Code:
+                                                        </label>
+                                                        <input id="zip" name="zip" class="field1" type="text" />
+                                                    </li>
+                                                    <li>
+                                                        <label for="email" class="optional">
+                                                            Email Address* (optional):
+                                                            <br/>
+                                                            <span class="small">* If you would like to be updated by us no more than four times a year. We will <i><b>NEVER</b></i> trade or sell your email info.</span>
+                                                        </label>
+                                                        <input id="email" name="email" class="field1" type="text" />
+                                                    </li>
+                                                </ul>
+                                                <div id="signme">
+                                                    <input class="button2 blue2" type="submit" id="sign" name="sign" value="Sign this Petition">
+                                                    <!--
+                                                    <a href="javascript: submitRegForm()" class="button2 blue2">Sign Petition</a>
+                                                    <script type="text/javascript">
+                                                    function submitRegForm(){
+                                                    document.registration.submit();
+                                                    }
+                                                    </script>
+                                                    -->
+                                                </div>
+                                            </form>                                    </div>
                                 </div>
                             </div>
                         </div>
