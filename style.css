@@ -59,6 +59,14 @@ a:hover { text-decoration:underline;}
 	font-style: normal;
 }
 
+@font-face {
+  font-family: 'HelveticaNeueLTCom77BoldConde';
+  src: url('fonts/helveticaneueltcom-bdcn-webfont.eot');
+  src: local('?'), url('fonts/helveticaneueltcom-bdcn-webfont.woff') format('woff'), url('fonts/helveticaneueltcom-bdcn-webfont.ttf') format('truetype'), url('fonts/helveticaneueltcom-bdcn-webfont.svg#webfontwoetfXCp') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 h1.title {font-family: 'MyriadProBold', Tahoma, Helvetica; font-size: 40px; color: #00514b; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 15px 0 5px 0; margin: 0;}
 h2.tagline {font-family: 'RockwellRegular', Tahoma, Helvetica; font-size: 22px; font-weight: normal; color: #117a72; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); padding: 0 0 20px 0; margin: 0;}
 .top_link {text-align: center; margin:0 auto; }
@@ -187,10 +195,64 @@ h2.tagline {font-family: 'RockwellRegular', Tahoma, Helvetica; font-size: 22px; 
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
 }
 .blue2:active {
-	color: #80bed6;
+	color: #fff;
 	background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
 	background: -moz-linear-gradient(top,  #0078a5,  #00adee);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+}
+
+.button3 {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: baseline;
+	margin: 0 2px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font-family: Arial, Tahome, Helvetica;
+	font-weight: normal;
+	font-size: 18px;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.7);
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+	box-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+.button3:hover {
+	text-decoration: none;
+}
+.button3:active {
+	position: relative;
+	top: 1px;
+}
+
+/* red */
+.red {
+	color: #fff;
+	border: solid 1px #6b1206;
+	background: #d32d17;
+  background: -webkit-gradient(linear, left top, left bottom, from(#be1f20), to(#6b1206));
+	background: -moz-linear-gradient(top,  #be1f20,  #6b1206);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#d35657', endColorstr='#be1f20');
+
+
+}
+.red:hover {
+	background: #b01f08;
+	background: -webkit-gradient(linear, left top, left bottom, from(#6b1206), to(#be1f20));
+	background: -moz-linear-gradient(top,  #6b1206,  #be1f20);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#6b1206', endColorstr='#be1f20');
+}
+.red:active {
+	color: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#92cfdc), to(#076071));
+	background: -moz-linear-gradient(top,  #92cfdc,  #076071);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#92cfdc', endColorstr='#076071');
 }
 
 /*-----------------------------------*/
@@ -198,13 +260,24 @@ h2.tagline {font-family: 'RockwellRegular', Tahoma, Helvetica; font-size: 22px; 
 /*-----------------------------------*/
 .header_text_bg { margin:0; padding:0; background: #ccc url(images/content_bg.jpg) no-repeat;}
 div .showcase {width: 650px; margin-left: 20px; padding-top: 20px;}
-div .showcase h1.related {font-family: 'RockwellBold', Tahoma, Helvetica; width: 650px; font-size: 26px; font-weight: bold; color: #0d5766; text-shadow: 0px 1px 1px #fff; text-align: left; margin:0; padding:0 0 10px 0;}
+div .showcase h1.related {font-family: 'RockwellBold', Tahoma, Helvetica; width: 650px; font-size: 26px; font-weight: bold; color: #0d5766; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.7); text-align: left; margin:0; padding:0 0 10px 0;}
 .span-24 {width: 650px; margin-right: 0;}
 .last {margin-right:0;padding-right:0;}
 ul#rooms {float: left; position: relative; width: 650px; margin: 0px; padding: 0px; list-style: none;}
 ul#rooms li {width: 304px; height: 240px; float: left; display: block; position: relative; margin: 0px; padding: 0px 20px 25px 0px; font-family: "Trebuchet Ms", Tahoma, sans-serif; color: #2360a7; text-shadow: 0px 1px 1px #fff; text-align: center; font-size: 1.3em;  border: 0px solid #fff;}
 ul#rooms li.last {width: 300px; height: 240px;  float: right; display: block; position: relative; margin: 0px; padding: 0px 0px 15px 0px; font-family: "Trebuchet Ms", Tahoma, sans-serif; color: #2360a7; text-shadow: 0px 1px 1px #fff; text-align: center; font-size: 1.3em;  border: 0px solid #fff;}
 h4.segoe { font-family: Arial, Helvetica, sans-serif; color: #015455; text-shadow: 0px 1px 0px rgba(255,255,255,.5); text-align: center; font-size: 0.7em;  border: 0px solid #fff; position: relative; margin: 197px 0px 0px 0px; padding:0; }   
+div .reason {width: 630px; margin-right: 20px; padding: 10px 5px 15px 0; color: #0d5766; text-shadow: 0px 1px 1px #fff; background: rgba(200,228,229,0.4); -moz-box-shadow: 0px 0px 15px rgba(10, 111, 131, 0.7); -webkit-box-shadow: 0px 0px 15px rgba(10, 111, 131, 0.7); box-shadow: 0px 0px 15px rgba(10, 111, 131, 0.7); -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; }
+div .reason h3.tagline {width: 630px; margin: 0, padding: 0; font-family: 'RockwellRegular', Tahoma, Helvetica; text-align: center; font-weight: normal; font-size: 24px; color: #0d5766; text-shadow: 0px 1px 1px rgba(255,255,255, 0.7);}
+div .reason img.globe { float:left; margin: 0; padding:0; top: 0; vertical-align: middle; width: 90px; height: 80px; }
+div .reason img.no_blowers { float:right; margin: 0; padding:0; top: 0; vertical-align: middle; width: 85px; height: 85px;}
+div .reason h3.haz_title {margin: 0; padding: 10px 0px 5px 15px; font-family: 'HelveticaNeueLTCom77BoldConde', "Trebuchet Ms", Helvetica; font-size: 20px; font-weight: normal; text-align: left; color: #b01f08; text-shadow: 0px 1px 1px rgba(255,255,255, 0.7); }
+div .reason p.haz_text {margin: 0; padding: 0 0 0 15px; line-height: 20px; font-family: 'RockwellRegular', Tahoma, Helvetica; color: #0d5766; font-size: 16px; font-weight: normal; text-shadow: 0px 1px 1px rgba(255,255,255, 0.7); }
+div .reason p.haz_text span.center {width: 650px; float: left; text-align: left; margin: 0;}
+div .reason ul {margin: 0; padding: 0;}
+div .reason li {margin: 0 0 0 50px;}
+div .reason li span.grey {font-size: 14px; color: #6d1206;}
+div .reason p.haz_text span.grey {font-size: 14px; color: #6d1206;}
 
 div .single_video3 { float: left; width: 290px; height: 235px; padding: 0px; margin: 0px 0px 0px 0px; 
 	background: #dbf5f8;
@@ -274,9 +347,9 @@ div .single_video3 img.video { margin: 0px; padding: 0px; position: absolute; bo
 .sidebar {float:right; top: 0; width:275px; height:100%; margin:20px 0px 0 0px;}
 .links {float:right; width:275px; height:100%; margin:0px 0px 0 0px;}
 #petition {margin: 20px 0px 0px 10px;}
-#skipmenu {text-align: center;}
-#skipmenu a {color: #b32021; font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);}
-#skipmenu a:hover {color:#00514b; text-decoration: underline;}
+#skipmenu {margin: 10px 0 10px 0; text-align: center;}
+#skipmenu a {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal;}
+#skipmenu a:hover {text-decoration: none;}
 #print {text-align: center;}
 #print p.download a {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; overflow: auto; font-size: 16px; color: #b32021; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 5px 0 0 0; margin: 0;}
 #print p.download a:hover {color:#00514b; text-decoration: underline;}
@@ -284,19 +357,19 @@ div .single_video3 img.video { margin: 0px; padding: 0px; position: absolute; bo
 #print p.sub_title a:hover {color:#00514b; text-decoration: underline;}
 #title {margin: 20px 0px 0px 10px;}
 #title p.petition_title {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; overflow: auto; font-size: 20px; color: #085a6b; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); padding: 0 0 10px 0; margin: 0;}
-#title p.petition_title2 {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; overflow: auto; font-size: 20px; color: #085a6b; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); padding: 21px 0 2px 0; margin: 0;}
+#title p.petition_title2 {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; overflow: auto; font-size: 20px; color: #085a6b; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); padding: 228px 0 4px 0; margin: 0;}
 h3.petition_title {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: center; font-size: 20px; color: #00514b; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); padding: 0 0 10px 0; margin: 0;}
 img.divider1 {width: 270px; height: 2px; margin-bottom: 15px; margin-top:5;}
 img.divider2 {width: 270px; height: 2px; margin-bottom: 5px; margin-top:0;}
-.subcontent {margin:0 auto; padding-left: 20px; width: 250px;}
+.subcontent {margin:0 auto; padding-left: 20px; width: 250px; }
 .subcontent ul {padding:0; margin:0 auto; list-style:none; border:0;}
 .subcontent ul li {float:left; margin:0; padding:0 15px; border:0;}
-.subcontent ul li span {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; font-size: 13px; color:#4c4c4c; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);}
+.subcontent ul li span {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; font-size: 13px; line-height: 15px; color:#4c4c4c; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);}
 .subcontent ul li.last {margin-bottom: 15px;}
 .subcontent ul li a {float:left; margin:0; padding:5px 0 0px 0; color:#b32021; font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; font-size: 14px; text-decoration:none; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);}
 .subcontent ul li a:hover {color:#3a8d9e; text-decoration: underline;}
-.subcontent p.sub_title {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; overflow: auto; font-size: 16px; color: #333; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 0; margin: 0;}
-.subcontent p.sub_title2 {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; overflow: auto; font-size: 16px; color: #333; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 0; margin: 0;}
+.subcontent p.sub_title {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; line-height: 15px; overflow: auto; font-size: 16px; color: #333; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 0; margin: 0;}
+.subcontent p.sub_title2 {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; line-height: 15px; overflow: auto; font-size: 16px; color: #333; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 0; margin: 0;}
 
 /*-----------------------------------*/
 /* 	     Registration Box 		     	 */
@@ -309,7 +382,7 @@ h2.reg_title { font: 2.1em 'RockwellRegular', Tahoma, Helvetica; font-size: 21px
 #left_container #firstpart { float: left; position: relative; width: 710px; height: 510px; }
 #left_container .reg_frame .field1 { position: relative; top: 20px; left: 0px;-webkit-box-shadow: 0 0px 2px rgba(0,0,0,.2); -moz-box-shadow: 0 0px 2px rgba(0,0,0,.2); box-shadow: 0 0px 2px rgba(0,0,0,.2); -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border: 1px solid #bcc7c7; height: 18px; width: 330px; margin: 0 0 15px 0; font-size: 0.8em; color: #0a284f; font-family: Arial, Helvetica, sans-serif; padding: 6px; }
 #left_container .close { float: right; position: relative; width: 30px; height: 30px; margin: 10px 24px 0px 0px; }
-#signme {float: right; width: 200px; margin: 20px 92px 0 0; position: relative;}
+#signme {float: right; width: 220px; margin: 20px 105px 0 0; position: relative;}
 ul.form { font: 1em Arial, Helvetica, sans-serif; color: #0a284f; width: 650px; padding: 0 1em 0 1em; list-style: none; zoom: 1; }
 li.form { float: left; clear: left; padding-bottom: 0.9em; }
 ul.form span.small {font: 0.7em Arial, Helvetica, sans-serif; width: 160px; color: #0a284f; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding-left: 20px;}
