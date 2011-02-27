@@ -260,7 +260,7 @@ h2.tagline {font-family: 'RockwellRegular', Tahoma, Helvetica; font-size: 22px; 
 /*-----------------------------------*/
 .header_text_bg { margin:0; padding:0; background: #ccc url(images/content_bg.jpg) no-repeat;}
 div .showcase {width: 650px; margin-left: 20px; padding-top: 20px; padding-bottom: 20px;}
-div .showcase h1.related {font-family: 'RockwellBold', Tahoma, Helvetica; width: 650px; font-size: 26px; font-weight: bold; color: #0d5766; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.7); text-align: left; margin:0; padding:0 0 10px 0;}
+div .showcase h1.related {font-family: 'RockwellBold', Tahoma, Helvetica; width: 650px; font-size: 26px; font-weight: bold; color: #0d5766; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); text-align: left; margin:0; padding:0 0 10px 0;}
 .span-24 {width: 650px; margin-right: 0;}
 .last {margin-right:0;padding-right:0;}
 ul#rooms {float: left; position: relative; width: 650px; margin: 0px; padding: 0px; list-style: none;}
@@ -317,9 +317,10 @@ div .single_video3 img.video { margin: 0px; padding: 0px; position: absolute; bo
 .header_text .content p{font-family: 'RockwellRegular', Tahoma, Helvetica; color: #333; font-size: 16px; line-height: 24px; margin:0; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);}
 .header_text .content .left1 {float:left; width:640px; padding: 0px 0 20px 30px; margin:0;}
 .header_text .div { margin: 25px 0 12px 20px; background-color: #222222; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; display: -moz-inline-stack; display: inline-block; vertical-align: top; zoom: 1;*display: inline; -webkit-box-shadow: 0px 0px 20px #276b7b; -moz-box-shadow: 0px 0px 20px #276b7b; box-shadow: 0px 0px 20px #276b7b;}
+.header_text .div .left1 p {width:640px; padding: 0px 0 20px 10px; margin:0; font-family: 'RockwellRegular', Tahoma, Helvetica; color: #333; font-size: 16px; line-height: 24px; margin:0; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);}
+.header_text .div .left1 p.first {padding-top: 47px;}
 .header_text .div .left1 { float:left; width:650px; height: 470px; padding:15px 0 0 0; margin:0; }
-.header_text .div .left1 { float:left; width:650px; height: 470px; padding:15px 0 0 0; margin:0; }
-.header_text .div .left1 .video {padding: 3px 0px 0 15px; z-index: 0;}
+.header_text .div .left1 .video {padding: 4px 0px 0 15px; z-index: 0;}
 .header_text .div .left1 img { margin:10px 10px 10px 0; padding:0;}
 .header_text .div .left1 h2 {font:bold 36px Arial, Helvetica, sans-serif; color:#fff; padding:0 0 10px 0; margin:0; border-bottom:1px solid #7cceee; line-height:1.8em;}
 .header_text .div .left1 h2 span { font: bold 14px Arial, Helvetica, sans-serif; color:#fff; padding:10px 0; margin:0;}
@@ -348,8 +349,8 @@ div .single_video3 img.video { margin: 0px; padding: 0px; position: absolute; bo
 /* 	     			Sidebar				 		     */
 /*-----------------------------------*/
 .sidebar {float:right; top: 0; width:275px; height:100%; margin:20px 0px 0 0px;}
-.links {float:right; width:275px; height:100%; margin:0px 0px 0 0px;}
-#petition {margin: 20px 0px 0px 10px;}
+#links {width:275px; margin: 0; padding: 0; }
+#petition {margin: 20px 0px 0px 10px; padding:0;}
 #skipmenu {margin: 10px 0 10px 0; text-align: center;}
 #skipmenu a {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal;}
 #skipmenu a:hover {text-decoration: none;}
@@ -360,20 +361,20 @@ div .single_video3 img.video { margin: 0px; padding: 0px; position: absolute; bo
 #print p.sub_title a:hover {color:#00514b; text-decoration: underline;}
 #title {margin: 20px 0px 0px 10px;}
 #title p.petition_title {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; overflow: auto; font-size: 20px; color: #085a6b; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); padding: 0 0 10px 0; margin: 0;}
-#title p.petition_title2 {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; overflow: auto; font-size: 20px; color: #085a6b; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); padding: 228px 0 4px 0; margin: 0;}
+#title p.petition_title2 {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; overflow: auto; font-size: 20px; color: #085a6b; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); padding: 180px 0 4px 0; margin: 0;}
 h3.petition_title {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: center; font-size: 20px; color: #00514b; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); padding: 0 0 10px 0; margin: 0;}
 img.divider1 {width: 270px; height: 2px; margin-bottom: 15px; margin-top:5;}
 img.divider2 {width: 270px; height: 2px; margin-bottom: 5px; margin-top:0;}
 .subcontent {margin:0 auto; padding-left: 20px; width: 250px; }
 .subcontent ul {padding:0; margin:0 auto; list-style:none; border:0;}
 .subcontent ul li {float:left; margin:0; padding:0 15px; border:0;}
-.subcontent ul li span {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; font-size: 13px; line-height: 15px; color:#4c4c4c; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);}
+.subcontent ul li span {width: 275px; float: left; text-align: left; font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; font-size: 13px; line-height: 15px; color:#4c4c4c; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);}
 .subcontent ul li.last {margin-bottom: 15px;}
 .subcontent ul li a {float:left; margin:0; padding:5px 0 0px 0; color:#b32021; font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; font-size: 14px; text-decoration:none; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);}
 .subcontent ul li a:hover {color:#3a8d9e; text-decoration: underline;}
-.subcontent p.sub_title {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; line-height: 15px; overflow: auto; font-size: 16px; color: #333; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 0; margin: 0;}
-.subcontent p.sub_title2 {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; line-height: 15px; overflow: auto; font-size: 16px; color: #333; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 0; margin: 0;}
-
+.subcontent p.sub_title {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; line-height: 20px; overflow: auto; font-size: 16px; color: #333; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 0; margin: 0;}
+.subcontent p.sub_title2 {width: 275px; font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; line-height: 20px; overflow: auto; font-size: 16px; color: #333; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 5px 0 0 0; margin: 0;}
+.subcontent ul.two {padding-top: 2px;}
 /*-----------------------------------*/
 /* 	     Registration Box 		     	 */
 /*-----------------------------------*/
