@@ -310,6 +310,11 @@ div .single_video3 img.video { margin: 0px; padding: 0px; position: absolute; bo
 .video_thumb {position:absolute; margin: 13px 0px 0px 13px;}
 
 
+.youtube_small2 {width:620px; height:450px;}
+.youtube_small2:hover{ background:url(images/btn_play.png) no-repeat; cursor:pointer;}
+.video_thumb2 {position:absolute; margin: 0 0 0 15px;}
+
+
 /*-----------------------------------*/
 /* 	     		Header Text			 		     */
 /*-----------------------------------*/
@@ -318,7 +323,7 @@ div .single_video3 img.video { margin: 0px; padding: 0px; position: absolute; bo
 .header_text .content .left1 {float:left; width:640px; padding: 0px 0 20px 30px; margin:0;}
 .header_text .div { margin: 25px 0 12px 20px; background-color: #222222; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; display: -moz-inline-stack; display: inline-block; vertical-align: top; zoom: 1;*display: inline; -webkit-box-shadow: 0px 0px 20px #276b7b; -moz-box-shadow: 0px 0px 20px #276b7b; box-shadow: 0px 0px 20px #276b7b;}
 .header_text .div .left1 p {width:640px; padding: 0px 0 20px 10px; margin:0; font-family: 'RockwellRegular', Tahoma, Helvetica; color: #333; font-size: 16px; line-height: 24px; margin:0; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);}
-.header_text .div .left1 p.first {padding-top: 47px;}
+.header_text .div .left1 p.first {padding-top: 502px;}
 .header_text .div .left1 { float:left; width:650px; height: 470px; padding:15px 0 0 0; margin:0; }
 .header_text .div .left1 .video {padding: 4px 0px 0 15px; z-index: 0;}
 .header_text .div .left1 img { margin:10px 10px 10px 0; padding:0;}

@@ -26,7 +26,52 @@
         <meta property="og:postal-code" content="95472"/>
         <meta property="og:country-name" content="USA"/>
         <meta property="fb:admins" content="1493919124"/>
-        <!-- Facebook Opengraph Meta tags end -->
+        <!-- Facebook Opengraph Meta tags end --><script language="javascript" type="text/javascript">
+            $(document).ready(function(){
+                $(".youtube_small2").click(function(){
+                    $.fancybox({
+                        'padding': 0,
+                        'autoScale': false,
+                        'transitionIn': 'none',
+                        'transitionOut': 'none',
+                        'width': 800,
+                        'height': 580,
+                        'href': getHref(this),
+                        'type': 'swf',
+                        'swf': {
+                            'wmode': 'transparent',
+                            'allowfullscreen': 'true',
+                        }
+                    });
+                    
+                    return false;
+                });
+                
+                $(".youtube2").click(function(){
+                    $.fancybox({
+                        'padding': 0,
+                        'autoScale': false,
+                        'transitionIn': 'none',
+                        'transitionOut': 'none',
+                        'width': 800,
+                        'height': 580,
+                        'href': getHref(this),
+                        'type': 'swf',
+                        'swf': {
+                            'wmode': 'transparent',
+                            'allowfullscreen': 'true',
+                        }
+                    });
+                    
+                    return false;
+                });
+                
+                function getHref(holder){
+                    var lnk = $(holder).find('a').attr('href');
+                    return lnk.replace(new RegExp("watch\\?v=", "i"), 'v/')
+                }
+            });
+        </script>
     </head>
     <body>
         <div class="main">
@@ -56,14 +101,12 @@
             <div class="header_text_bg">
                 <div class="header_text">
                 		<div class="div">
-                        <div class="left1" id="ytbox">
-                        	<object width="620" height="450" class="video">
-        											<param name="movie" value="http://www.youtube.com/v/06bEWNvHpu8?fs=1&amp;hl=en_US" />
-        											<param name="allowFullScreen" value="true" />
-        											<param name="allowscriptaccess" value="always" />
-        											<param name="wmode" value="opaque" />
-        											<embed src="http://www.youtube.com/v/06bEWNvHpu8?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="620" height="450" wmode="opaque"></embed>
- 													</object>
+                        <div class="left1">
+                                <div class="video_thumb2" style="background:url(images/leaf_blower_main.jpg);">
+                                     <div class="youtube_small2">
+                                     			<a href="http://www.youtube.com/watch?v=06bEWNvHpu8"></a>
+                                     </div>
+                                </div>
                             <p  class="first">
                                 The Sebastopol Peaceful Air Effort was initiated by Shepherd Bliss and Jonathan Greenberg to respond to the toxic, disruptive impact that the regulated use of leaf blowers is having on our community. There is overwhelming evidence, some of it presented on this website, that leaf blowers are the most unnecessary, easy-to-avoid polluters in our lives. It is time to stop this insane imposition on our health.
                             </p>
