@@ -28,11 +28,16 @@ jQuery(document).ready(function() {
 			url	    : "/scripts/sign_petition.php",
 			data	: $(this).serializeArray(),
 			success: function(data) {
-				$("#reg_error").hide();
-				$('#mask').hide();
-				$('.window').hide();
-				$.fancybox(data);
-			}
+                $('#mask').hide();
+                $('.window').hide();
+				$.fancybox(data,{
+                        'onClosed' : function() {
+                            $('#mask').hide();
+                            $('.window').hide();
+                            $('#ytbox').fadeIn(500);
+			            }
+                    });
+            }
 		});
 
 		return false;
