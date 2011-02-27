@@ -31,6 +31,8 @@ jQuery(document).ready(function() {
                 $('#mask').hide();
                 $('.window').hide();
 				$.fancybox(data,{
+                        'height' : 260,
+                        'width' : 80,
                         'onClosed' : function() {
                             $('#mask').hide();
                             $('.window').hide();

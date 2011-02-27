@@ -14,16 +14,21 @@
 	float: none;
 }
 
+#sign_result_box {
+	padding: 1em;
+    width: 260px;
+    height: 28px;
+
+}
+
 #sign_result {
 	font: 1.2em Arial, Helvetica, sans-serif;
 	color: #0a284f;
-	padding: 0 1em 0 1em;
 }
 
 #sig_count {
 	font: 1.6em Arial, Helvetica, sans-serif;
 	color: #008000;
-	padding: 0 1em 0 1em;
 }
 
 h3.petition_title a {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: center; font-size: 20px; color: #00514b; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); padding: 0 0 10px 0; margin: 0;}
