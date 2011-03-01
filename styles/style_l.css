@@ -24,11 +24,17 @@
 #sign_result {
 	font: 1.2em Arial, Helvetica, sans-serif;
 	color: #0a284f;
+    height: 24px;
+    width: 420px;
+    text-align: center;
 }
 
 #sig_count {
 	font: 1.6em Arial, Helvetica, sans-serif;
 	color: #008000;
+    height: 30px;
+    width: 420px;
+    text-align: center;
 }
 
 h3.petition_title a {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: center; font-size: 20px; color: #00514b; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); padding: 0 0 10px 0; margin: 0;}
