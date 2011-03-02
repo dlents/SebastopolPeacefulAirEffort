@@ -24,16 +24,16 @@
 #sign_result {
 	font: 1.2em Arial, Helvetica, sans-serif;
 	color: #0a284f;
-    height: 24px;
-    width: 420px;
+    height: 36px;
+    width: 480px;
     text-align: center;
 }
 
 #sig_count {
 	font: 1.6em Arial, Helvetica, sans-serif;
 	color: #008000;
-    height: 30px;
-    width: 420px;
+    height: 42px;
+    width: 480px;
     text-align: center;
 }
 
