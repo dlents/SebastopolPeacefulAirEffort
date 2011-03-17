@@ -26,7 +26,7 @@ a:hover { text-decoration:underline;}
 .blok_header { margin:0 auto; padding:0; height: height: 100%; background:#fff url(images/top_bg.png) repeat top;}
 #nav {margin:0 auto; padding:0; height: 53px; background:#fff url(images/nav_bg.png) no-repeat;}
 .header { text-align: left; width:960px; margin:0 auto; padding:0;}
-.header img.logo {float: left; margin:0 auto; padding: 0 0 0 20px; width: 112px; height: 105px;}
+.header img.logo {float: left; margin:0 auto; padding: 0 0 0 20px; width: 112px; height: 105px; border: 0px;}
 
 @font-face {
 	font-family: 'MyriadProBold';  
