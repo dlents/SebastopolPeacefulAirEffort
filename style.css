@@ -73,6 +73,8 @@ a:hover { text-decoration:underline;}
  *
  */
 h1.title {font-family: 'RockwellRegular', Tahoma, Helvetica; font-size: 40px; color: #00514b; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 15px 0 5px 214px; margin: 0;}
+h2.take_action {font-family: 'RockwellRegular', Tahoma, Helvetica; font-size: 24px; overflow: auto; color: #085a6b; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); text-align: center; margin:0; padding: 0 0 7px 0;}
+h4.regulate {font-family: 'RockwellRegular', Tahoma, Helvetica; font-size: 14px; color: #00514b; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); margin:0; text-align: center; padding: 0 0 0 0;}
 h2.tagline {font-family: 'RockwellRegular', Tahoma, Helvetica; font-size: 22px; font-weight: normal; color: #117a72; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); padding: 0 0 20px 232px; margin: 0;}
 .top_link {text-align: center; margin:0 auto; }
 .top_link p { font: normal 11px Arial, Helvetica, sans-serif; color:#1f809d; padding:0; margin:0;}
@@ -210,16 +212,17 @@ h2.tagline {font-family: 'RockwellRegular', Tahoma, Helvetica; font-size: 22px; 
 	display: inline-block;
 	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
 	*display: inline;
-	vertical-align: baseline;
-	margin: 0 2px;
+	vertical-align: middle;
+	margin: 0 0 10px 0;
 	outline: none;
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
-	font-family: Arial, Tahome, Helvetica;
+	font-family: 'RockwellRegular', Tahoma, Helvetica;
 	font-weight: normal;
 	font-size: 18px;
-	padding: .5em 2em .55em;
+	width: 200px;
+	padding: .5em .5em .5em .5em;
 	text-shadow: 0 1px 1px rgba(0,0,0,.7);
 	-webkit-border-radius: 5px; 
 	-moz-border-radius: 5px;
@@ -283,6 +286,31 @@ h2.tagline {font-family: 'RockwellRegular', Tahoma, Helvetica; font-size: 22px; 
 	background: -moz-linear-gradient(top,  #92cfdc,  #076071);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#92cfdc', endColorstr='#076071');
 }
+
+.action_module {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: middle;
+	outline: none;
+	text-decoration: none;
+	font-family: 'RockwellRegular', Tahoma, Helvetica;
+	font-weight: normal;
+	font-size: 18px;
+	width: 300px;
+	margin: 0px;
+	padding: 10px;
+	border: 1px solid #246c66;
+	background: rgba(179, 227, 234, 0.4);
+	text-shadow: 0 1px 1px rgba(0,0,0,.7);
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+	box-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+
 /*-----------------------------------*/
 /* 	     		Header Text_bg		   		 */
 /*-----------------------------------*/
@@ -388,11 +416,13 @@ div .single_video3 img.video { margin: 0px; padding: 0px; position: absolute; bo
 /* 	     			Sidebar				 		     */
 /*-----------------------------------*/
 .sidebar {float:right; top: 0; width:275px; height:100%; margin:20px 0px 0 0px;}
-#links {width:275px; margin: 0; padding: 0; }
-#petition {margin: 20px 0px 0px 10px; padding:0;}
+#links {width:270px;}
+#petition {margin: 6px 0px 115px 10px; padding:0;}
+#petition .action_module {width: 270px;}
 #skipmenu {margin: 10px 0 10px 0; text-align: center;}
 #skipmenu a {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal;}
 #skipmenu a:hover {text-decoration: none;}
+#skipmenu img.facebook {display: inline; float: left; margin:0; padding:0; border:0; vertical-align: middle;}
 #print {text-align: center;}
 #print p.download a {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; overflow: auto; font-size: 16px; color: #6f0f0f; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 5px 0 0 0; margin: 0;}
 #print p.download a:hover {color:#00514b; text-decoration: underline;}
@@ -400,11 +430,11 @@ div .single_video3 img.video { margin: 0px; padding: 0px; position: absolute; bo
 #print p.sub_title a:hover {color:#00514b; text-decoration: underline;}
 #title {margin: 20px 0px 0px 10px;}
 #title p.petition_title {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; overflow: auto; font-size: 20px; color: #085a6b; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); padding: 0 0 10px 0; margin: 0;}
-#title p.petition_title2 {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; overflow: auto; font-size: 20px; color: #085a6b; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); padding: 160px 0 4px 0; margin: 0;}
+#title p.petition_title2 {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; overflow: auto; font-size: 20px; color: #085a6b; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); padding: 0px 0 4px 0; margin: 0;}
 h3.petition_title {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: center; font-size: 20px; color: #00514b; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); padding: 0 0 10px 0; margin: 0;}
 h3.petition_print a {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: center; font-size: 18px; color: #6f0f0f; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); padding: 0 0 10px 0; margin: 0;}
 h3.petition_print a:hover {color:#00514b; text-decoration: underline;}
-img.divider1 {width: 270px; height: 2px; margin-bottom: 15px; margin-top:5;}
+img.divider1 {width: 270px; height: 2px; margin-bottom: 10px; margin-top:0;}
 img.divider2 {width: 270px; height: 2px; margin-bottom: 5px; margin-top:0;}
 .subcontent {margin:0 auto; padding-left: 20px; width: 250px; }
 .subcontent ul {padding:0; margin:0 auto; list-style:none; border:0;}
