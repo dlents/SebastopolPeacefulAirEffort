@@ -419,10 +419,10 @@ div .single_video3 img.video { margin: 0px; padding: 0px; position: absolute; bo
 #links {width:270px;}
 #petition {margin: 6px 0px 115px 10px; padding:0;}
 #petition .action_module {width: 270px;}
-#skipmenu {margin: 10px 0 10px 0; text-align: center;}
-#skipmenu a {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal;}
-#skipmenu a:hover {text-decoration: none;}
-#skipmenu img.facebook {display: inline; float: left; margin:0; padding:0; border:0; vertical-align: middle;}
+.skipmenu {margin: 10px 0 10px 0; text-align: center;}
+.skipmenu a {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal;}
+.skipmenu a:hover {text-decoration: none;}
+.skipmenu img.facebook {display: inline; float: left; margin:0; padding:0; border:0; vertical-align: middle;}
 #print {text-align: center;}
 #print p.download a {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; overflow: auto; font-size: 16px; color: #6f0f0f; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 5px 0 0 0; margin: 0;}
 #print p.download a:hover {color:#00514b; text-decoration: underline;}
@@ -435,16 +435,15 @@ h3.petition_title {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weigh
 h3.petition_print a {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: center; font-size: 18px; color: #6f0f0f; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); padding: 0 0 10px 0; margin: 0;}
 h3.petition_print a:hover {color:#00514b; text-decoration: underline;}
 img.divider1 {width: 270px; height: 2px; margin-bottom: 10px; margin-top:0;}
-img.divider2 {width: 270px; height: 2px; margin-bottom: 5px; margin-top:0;}
+img.divider2 {width: 270px; height: 2px; margin-bottom: 0px; margin-top:0;}
 .subcontent {margin:0 auto; padding-left: 20px; width: 250px; }
-.subcontent ul {padding:0; margin:0 auto; list-style:none; border:0;}
+.subcontent ul {padding:0; margin:0; list-style:none; border:0;}
 .subcontent ul li {float:left; margin:0; padding:0 15px; border:0;}
 .subcontent ul li span {width: 275px; float: left; text-align: left; font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; font-size: 13px; line-height: 15px; color:#4c4c4c; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);}
 .subcontent ul li.last {margin-bottom: 15px;}
 .subcontent ul li a {float:left; margin:0; padding:5px 0 0px 0; color:#b32021; font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; font-size: 14px; text-decoration:none; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);}
 .subcontent ul li a:hover {color:#3a8d9e; text-decoration: underline;}
-.subcontent p.sub_title {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; line-height: 20px; overflow: auto; font-size: 16px; color: #333; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 0; margin: 0;}
-.subcontent p.sub_title2 {width: 275px; font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; line-height: 20px; overflow: auto; font-size: 16px; color: #333; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 5px 0 0 0; margin: 0;}
+.subcontent p.sub_title {width: 275px; font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; line-height: 20px; overflow: auto; font-size: 16px; color: #333; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 5px 0 0 0; margin: 0;}
 .subcontent ul.two {padding-top: 2px;}
 /*-----------------------------------*/
 /* 	     Registration Box 		     	 */
