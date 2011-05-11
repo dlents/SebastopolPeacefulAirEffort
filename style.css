@@ -26,7 +26,7 @@ a:hover { text-decoration:underline;}
 .blok_header { margin:0 auto; padding:0; height: height: 100%; background:#fff url(images/top_bg.png) repeat top;}
 #nav {margin:0 auto; padding:0; height: 53px; background:#fff url(images/nav_bg.png) no-repeat;}
 .header { text-align: left; width:960px; margin:0 auto; padding:0;}
-.header img.logo {float: left; margin:0 auto; padding: 0 0 0 20px; width: 112px; height: 105px; border: 0px;}
+.header img.logo {float: left; margin:0 auto; padding: 0; width: 112px; height: 105px; border: 0px;}
 
 @font-face {
 	font-family: 'MyriadProBold';  
@@ -74,8 +74,9 @@ a:hover { text-decoration:underline;}
  */
 h1.title {font-family: 'RockwellRegular', Tahoma, Helvetica; font-size: 40px; color: #00514b; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 15px 0 5px 214px; margin: 0;}
 h2.take_action {font-family: 'RockwellRegular', Tahoma, Helvetica; font-size: 24px; overflow: auto; color: #085a6b; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); text-align: center; margin:0; padding: 0 0 7px 0;}
-h4.regulate {font-family: 'RockwellRegular', Tahoma, Helvetica; font-size: 14px; color: #00514b; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); margin:0; text-align: center; padding: 0 0 0 0;}
+h4.regulate {font-family: 'RockwellRegular', Tahoma, Helvetica; font-size: 14px; color: #00514b; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4); margin:0; text-align: center; padding: 0 0 0 0;}
 h2.tagline {font-family: 'RockwellRegular', Tahoma, Helvetica; font-size: 22px; font-weight: normal; color: #117a72; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 0 0 20px 232px; margin: 0;}
+h2.subtitle {font-family: 'RockwellRegular', Tahoma, Helvetica; font-size: 24px; font-weight: normal; color: #085a6b; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 25px 0 5px 0px; margin: 0; text-align: center;}
 .top_link {text-align: center; margin:0 auto; }
 .top_link p { font: normal 11px Arial, Helvetica, sans-serif; color:#1f809d; padding:0; margin:0;}
 .top_link p span { float:right;}
@@ -316,27 +317,27 @@ h2.tagline {font-family: 'RockwellRegular', Tahoma, Helvetica; font-size: 22px; 
 /*-----------------------------------*/
 .header_text_bg { margin:0; padding:0; background: #cdcece url(images/content_bg.jpg) no-repeat;}
 .header_text_bg2 { margin:0; padding:0; background: #cdcece url(images/content_bg2.jpg) no-repeat;}
-div .showcase {width: 650px; margin-left: 20px; padding-top: 20px; padding-bottom: 20px;}
-div .showcase h1.related {font-family: 'RockwellBold', Tahoma, Helvetica; width: 650px; font-size: 26px; font-weight: bold; color: #0d5766; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); text-align: left; margin:0; padding:0 0 10px 0;}
+div .showcase {width: 650px; margin-left: 20px; padding-top: 27px; padding-bottom: 20px;}
+div .showcase h1.related {font-family: 'RockwellBold', Tahoma, Helvetica; width: 650px; font-size: 26px; font-weight: bold; color: #0d5766; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6); text-align: left; margin:0; padding:0 0 10px 0;}
 .span-24 {width: 650px; margin-right: 0;}
 .last {margin-right:0;padding-right:0;}
 ul#rooms {float: left; position: relative; width: 650px; margin: 0px; padding: 0px; list-style: none;}
-ul#rooms li {width: 304px; height: 240px; float: left; display: block; position: relative; margin: 0px; padding: 0px 20px 25px 0px; font-family: "Trebuchet Ms", Tahoma, sans-serif; color: #2360a7; text-shadow: 0px 1px 0px #fff; text-align: center; font-size: 1.3em;  border: 0px solid #fff;}
-ul#rooms li.last {width: 300px; height: 240px;  float: right; display: block; position: relative; margin: 0px; padding: 0px 0px 15px 0px; font-family: "Trebuchet Ms", Tahoma, sans-serif; color: #2360a7; text-shadow: 0px 1px 0px #fff; text-align: center; font-size: 1.3em;  border: 0px solid #fff;}
+ul#rooms li {width: 304px; height: 240px; float: left; display: block; position: relative; margin: 0px; padding: 0px 20px 25px 0px; font-family: "Trebuchet Ms", Tahoma, sans-serif; color: #2360a7; text-shadow: 0px 1px 1px #fff; text-align: center; font-size: 1.3em;  border: 0px solid #fff;}
+ul#rooms li.last {width: 300px; height: 240px;  float: right; display: block; position: relative; margin: 0px; padding: 0px 0px 15px 0px; font-family: "Trebuchet Ms", Tahoma, sans-serif; color: #2360a7; text-shadow: 0px 1px 1px #fff; text-align: center; font-size: 1.3em;  border: 0px solid #fff;}
 h4.segoe { font-family: Arial, Helvetica, sans-serif; color: #015455; text-shadow: 0px 1px 0px rgba(255,255,255,.5); text-align: center; font-size: 0.7em;  border: 0px solid #fff; position: relative; margin: 197px 0px 0px 0px; padding:0; }   
-div .reason {width: 630px; margin-right: 20px; padding: 10px 5px 15px 0; color: #0d5766; text-shadow: 0px 1px 0px #fff; background: rgba(200,228,229,0.4); -moz-box-shadow: 0px 0px 15px rgba(10, 111, 131, 0.7); -webkit-box-shadow: 0px 0px 15px rgba(10, 111, 131, 0.7); box-shadow: 0px 0px 15px rgba(10, 111, 131, 0.7); -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; }
-div .reason h3.tagline {width: 630px; margin: 0, padding: 0; font-family: 'RockwellRegular', Tahoma, Helvetica; text-align: center; font-weight: normal; font-size: 24px; color: #0d5766; text-shadow: 0px 1px 0px rgba(255,255,255, 0.7);}
+div .reason {width: 630px; margin-right: 20px; padding: 10px 5px 15px 5px; color: #0d5766; text-shadow: 0px 1px 0px #fff; background: rgba(200,228,229,0.4); -moz-box-shadow: 0px 0px 15px rgba(10, 111, 131, 0.7); -webkit-box-shadow: 0px 0px 15px rgba(10, 111, 131, 0.7); box-shadow: 0px 0px 15px rgba(10, 111, 131, 0.7); -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; }
+div .reason h3.tagline {width: 630px; margin: 0, padding: 0; font-family: 'RockwellRegular', Tahoma, Helvetica; text-align: center; font-weight: normal; font-size: 24px; color: #0d5766; text-shadow: 0px 1px 1px rgba(255,255,255, 0.7);}
 div .reason img.globe { float:left; margin: 0; padding:0; top: 0; vertical-align: middle; width: 90px; height: 80px; }
 div .reason img.no_blowers { float:right; margin: 0; padding:0; top: 0; vertical-align: middle; width: 85px; height: 85px;}
 div .reason img.table { margin: 2px 0 0 120px; padding:0; top: 0; vertical-align: middle; width: 400px; height: 150px;}
 div .reason img.residence { margin: 2px 0 10px 120px; padding:0; top: 0; vertical-align: middle; width: 282px; height: 180px;}
-div .reason h3.haz_title {margin: 0; padding: 10px 0px 5px 15px; font-family: 'HelveticaNeueLTCom77BoldConde', "Trebuchet Ms", Helvetica; font-size: 20px; font-weight: normal; text-align: left; color: #237a8b; text-shadow: 0px 1px 0px rgba(255,255,255, 0.6); }
-div .reason p.haz_text {margin: 0; padding: 0 0 0 15px; line-height: 22px; font-family: 'RockwellRegular', Tahoma, Helvetica; color: #0d5766; font-size: 16px; font-weight: normal; text-shadow: 0px 1px 0px rgba(255,255,255, 0.5); }
-div .reason p.haz_text_small {margin: 0; padding: 5px 0 0 120px; line-height: 22px; font-family: 'RockwellRegular', Tahoma, Helvetica; color: #0d5766; font-size: 14px; font-weight: normal; text-shadow: 0px 1px 0px rgba(255,255,255, 0.5); }
+div .reason h3.haz_title {margin: 0; padding: 10px 0px 5px 15px; font-family: 'HelveticaNeueLTCom77BoldConde', "Trebuchet Ms", Helvetica; font-size: 20px; font-weight: normal; text-align: left; color: #237a8b; text-shadow: 0px 1px 1px rgba(255,255,255, 0.7); }
+div .reason p.haz_text {width: 600px; margin: 0; padding: 0 15px 0 15px; line-height: 22px; font-family: 'RockwellRegular', Tahoma, Helvetica; color: #0d5766; font-size: 16px; font-weight: normal; text-shadow: 0px 1px 1px rgba(255,255,255, 0.7); }
+div .reason p.haz_text_small {margin: 0; padding: 5px 0 0 120px; line-height: 22px; font-family: 'RockwellRegular', Tahoma, Helvetica; color: #0d5766; font-size: 14px; font-weight: normal; text-shadow: 0px 1px 1px rgba(255,255,255, 0.7); }
 div .reason p.haz_text_small a {color: #6d1206;}
 div .reason p.haz_text_small a:hover {text-decoration: underline;}
 div .reason p.haz_text span.center {width: 650px; float: left; text-align: left; margin: 0;}
-div .reason ul {font-family: 'RockwellRegular', Tahoma, Helvetica; margin: 0; padding: 0; text-shadow: 0px 1px 0px rgba(255,255,255, 0.5);}
+div .reason ul {font-family: 'RockwellRegular', Tahoma, Helvetica; margin: 0; padding: 0;}
 div .reason li {margin: 0 0 0 50px;}
 div .reason li span.grey {font-size: 14px; color: #6d1206;}
 div .reason li span.grey a {color: #6d1206;}
@@ -344,6 +345,7 @@ div .reason li span.grey a:hover {text-decoration: underline;}
 div .reason p.haz_text span.grey {font-size: 14px; color: #6d1206;}
 div .reason p.haz_text span.grey a {color: #6d1206;}
 div .reason p.haz_text span.grey a:hover {text-decoration: underline;}
+div .reason .holder {width: 620px; margin:0; padding: 0 5px 0 5px;}
 
 div .single_video3 { float: left; width: 290px; height: 235px; padding: 0px; margin: 0px 0px 0px 0px; 
 	background: #dbf5f8;
@@ -384,15 +386,31 @@ div .single_video3 img.video { margin: 0px; padding: 0px; position: absolute; bo
 .header_text { margin:0 auto; padding:0; width:960px;}
 .header_text .content p{font-family: 'RockwellRegular', Tahoma, Helvetica; color: #333; font-size: 16px; line-height: 24px; margin:0; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);}
 .header_text .content .left1 {float:left; width:640px; padding: 0px 0 20px 30px; margin:0;}
-.header_text .div { margin: 25px 0 12px 20px; background-color: #222222; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; display: -moz-inline-stack; display: inline-block; vertical-align: top; zoom: 1;*display: inline; -webkit-box-shadow: 0px 0px 20px #276b7b; -moz-box-shadow: 0px 0px 20px #276b7b; box-shadow: 0px 0px 20px #276b7b;}
-.header_text .div .left1 p {width:640px; padding: 0px 0 20px 10px; margin:0; font-family: 'RockwellRegular', Tahoma, Helvetica; color: #000; font-size: 16px; line-height: 24px; margin:0; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);}
-.header_text .div .left1 p.first {padding-top: 502px; color: #000;}
+.header_text .div { margin: 10px 0 12px 20px; background-color: #222222; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; display: -moz-inline-stack; display: inline-block; vertical-align: top; zoom: 1;*display: inline; -webkit-box-shadow: 0px 0px 20px #276b7b; -moz-box-shadow: 0px 0px 20px #276b7b; box-shadow: 0px 0px 20px #276b7b;}
+.header_text  p {width:640px; padding: 0px 0 20px 30px; margin:0; font-family: 'RockwellRegular', Tahoma, Helvetica; color: #000; font-size: 14px; line-height: 20px; margin:0; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);}
+.header_text  p.first {padding: 20px 0 20px 30px; color: #000000;}
 .header_text .div .left1 { float:left; width:650px; height: 470px; padding:15px 0 0 0; margin:0; }
 .header_text .div .left1 .video {padding: 4px 0px 0 15px; z-index: 0;}
 .header_text .div .left1 img { margin:10px 10px 10px 0; padding:0;}
 .header_text .div .left1 h2 {font:bold 36px Arial, Helvetica, sans-serif; color:#fff; padding:0 0 10px 0; margin:0; border-bottom:1px solid #7cceee; line-height:1.8em;}
 .header_text .div .left1 h2 span { font: bold 14px Arial, Helvetica, sans-serif; color:#fff; padding:10px 0; margin:0;}
-.header_text p { font:normal 14px Arial, Helvetica, sans-serif; color:#fff; padding:20px 0 0 0; margin:0; line-height:1.8em;}
+
+.content_text { margin:0 auto; padding:0; width:960px;}
+.content_text .content p{font-family: 'RockwellRegular', Tahoma, Helvetica; color: #333; font-size: 16px; line-height: 24px; margin:0; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);}
+.content_text .content .left1 {float:left; width:640px; padding: 0px 0 20px 30px; margin:0;}
+.content_text .div { margin: 10px 0 12px 20px; background-color: #222222; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; display: -moz-inline-stack; display: inline-block; vertical-align: top; zoom: 1;*display: inline; -webkit-box-shadow: 0px 0px 20px #276b7b; -moz-box-shadow: 0px 0px 20px #276b7b; box-shadow: 0px 0px 20px #276b7b;}
+.content_text  p {width:640px; padding: 0px 0 20px 30px; margin:0; font-family: 'RockwellRegular', Tahoma, Helvetica; color: #000; font-size: 14px; line-height: 20px; margin:0; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);}
+.content_text  p.first {padding: 20px 0 20px 30px; color: #000000;}
+.content_text .div .left1 { float:left; width:650px; height: 470px; padding:15px 0 0 0; margin:0; }
+.content_text .div .left1 .video {padding: 4px 0px 0 15px; z-index: 0;}
+.content_text .div .left1 img { margin:10px 10px 10px 0; padding:0;}
+.content_text .div .left1 h2 {font:bold 36px Arial, Helvetica, sans-serif; color:#fff; padding:0 0 10px 0; margin:0; border-bottom:1px solid #7cceee; line-height:1.8em;}
+.content_text .div .left1 h2 span { font: bold 14px Arial, Helvetica, sans-serif; color:#fff; padding:10px 0; margin:0;}
+.content_text p.second {width:640px; padding: 10px 0 0px 30px; margin:0; font: italic 16px 'RockwellRegular', Tahoma, Helvetica; color: #000000; line-height: 20px; margin:0; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);}
+.content_text ol {width:620px; font: 14px 'RockwellRegular', Tahoma, Helvetica; color: #000000; line-height: 20px; margin:0; padding: 20px 0 5px 40px; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);}
+.content_text ol p {width:570px; font: 14px 'RockwellRegular', Tahoma, Helvetica; color: #000000; line-height: 20px; margin:0; padding:0 10px 0 0; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);}
+.content_text ol p span.small_title {font: bold 14px 'RockwellRegular', Tahoma, Helvetica; text-decoration: underline; }
+.content_text li {width:550px; margin:0px; padding: 5px 0 5px 0px;}
 
 /*-----------------------------------*/
 /* 	     				Body						     */
@@ -417,8 +435,8 @@ div .single_video3 img.video { margin: 0px; padding: 0px; position: absolute; bo
 /* 	     			Sidebar				 		     */
 /*-----------------------------------*/
 .sidebar {float:right; top: 0; width:275px; height:100%; margin:20px 0px 0 0px;}
-#links {width:270px;}
-#petition {margin: 6px 0px 115px 10px; padding:0;}
+#links {width:275px;}
+#petition {margin: 6px 0px 0px 10px; padding:0;}
 #petition .action_module {width: 270px;}
 .skipmenu {margin: 10px 0 10px 0; text-align: center;}
 .skipmenu a {font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal;}
@@ -438,13 +456,13 @@ h3.petition_print a:hover {color:#00514b; text-decoration: underline;}
 img.divider1 {width: 270px; height: 2px; margin-bottom: 10px; margin-top:0;}
 img.divider2 {width: 270px; height: 2px; margin-bottom: 0px; margin-top:0;}
 .subcontent {margin:0 auto; padding-left: 20px; width: 250px; }
-.subcontent ul {padding:0; margin:0; list-style:none; border:0;}
-.subcontent ul li {float:left; margin:0; padding:0 15px; border:0;}
-.subcontent ul li span {width: 275px; float: left; text-align: left; font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; font-size: 13px; line-height: 15px; color:#4c4c4c; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);}
+.subcontent ul {width: 250px; padding:0; margin:0; list-style:none; border:0;}
+.subcontent ul li {width: 250px; float:left; margin:0; padding:0 15px; border:0;}
+.subcontent ul li span {width: 250px; float: left; text-align: left; font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; font-size: 13px; line-height: 15px; color:#4c4c4c; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);}
 .subcontent ul li.last {margin-bottom: 15px;}
 .subcontent ul li a {float:left; margin:0; padding:5px 0 0px 0; color:#b32021; font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; font-size: 14px; text-decoration:none; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);}
 .subcontent ul li a:hover {color:#3a8d9e; text-decoration: underline;}
-.subcontent p.sub_title {width: 275px; font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; line-height: 20px; overflow: auto; font-size: 16px; color: #333; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 5px 0 0 0; margin: 0;}
+.subcontent p.sub_title {width: 250px; font-family: 'RockwellRegular', Tahoma, Helvetica; font-weight: normal; text-align: left; line-height: 20px; overflow: auto; font-size: 16px; color: #333; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); padding: 5px 0 0 0; margin: 0;}
 .subcontent ul.two {padding-top: 2px;}
 /*-----------------------------------*/
 /* 	     Registration Box 		     	 */
